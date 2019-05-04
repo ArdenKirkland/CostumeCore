@@ -1,0 +1,437 @@
+@prefix : <https://w3id.org/costumeCore/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@base <https://w3id.org/costumeCore/ontology> .
+
+<https://w3id.org/costumeCore/ontology> rdf:type owl:Ontology ;
+                                         owl:versionIRI <https://w3id.org/costumeCore/ontology/0.3.4> ;
+                                         <http://purl.org/dc/terms/contributor> "Arden Kirkland" ;
+                                         schema:creator <http://viaf.org/viaf/315998461> ;
+                                         rdfs:label "Costume Core" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/contributor
+<http://purl.org/dc/terms/contributor> rdf:type owl:AnnotationProperty .
+
+
+###  http://schema.org/creator
+schema:creator rdf:type owl:AnnotationProperty .
+
+
+###  http://schema.org/name
+schema:name rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://w3id.org/costumeCore/ontology/closure
+<https://w3id.org/costumeCore/ontology/closure> rdf:type owl:ObjectProperty ;
+                                                rdfs:subPropertyOf owl:topObjectProperty ;
+                                                rdf:type owl:AsymmetricProperty ;
+                                                rdfs:domain <https://w3id.org/costumeCore/ontology/Costume> ;
+                                                rdfs:range <https://w3id.org/costumeCore/ontology/Closure> ;
+                                                rdfs:isDefinedBy <http://purl.org/costumeCore/ontology/> ;
+                                                rdfs:label "closure"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/closurePlacement
+<https://w3id.org/costumeCore/ontology/closurePlacement> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         rdf:type owl:AsymmetricProperty ;
+                                                         rdfs:label "closure placement"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/collar
+<https://w3id.org/costumeCore/ontology/collar> rdf:type owl:ObjectProperty ;
+                                               rdfs:subPropertyOf owl:topObjectProperty ;
+                                               rdf:type owl:AsymmetricProperty ;
+                                               rdfs:label "collar"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/color
+<https://w3id.org/costumeCore/ontology/color> rdf:type owl:ObjectProperty ;
+                                              rdfs:subPropertyOf owl:topObjectProperty ;
+                                              rdf:type owl:AsymmetricProperty ;
+                                              rdfs:label "color"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/costumeComponents
+<https://w3id.org/costumeCore/ontology/costumeComponents> rdf:type owl:ObjectProperty ;
+                                                          rdfs:subPropertyOf owl:topObjectProperty ;
+                                                          rdf:type owl:AsymmetricProperty ;
+                                                          rdfs:label "costume components"@en-us .
+
+
+###  https://w3id.org/costumeCore/ontology/dressType
+<https://w3id.org/costumeCore/ontology/dressType> rdf:type owl:ObjectProperty ;
+                                                  rdfs:subPropertyOf owl:topObjectProperty ;
+                                                  rdf:type owl:AsymmetricProperty ;
+                                                  rdfs:label "dress type"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/function
+<https://w3id.org/costumeCore/ontology/function> rdf:type owl:ObjectProperty ;
+                                                 rdfs:subPropertyOf owl:topObjectProperty ;
+                                                 rdf:type owl:AsymmetricProperty ;
+                                                 rdfs:label "function"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/gender
+<https://w3id.org/costumeCore/ontology/gender> rdf:type owl:ObjectProperty ;
+                                               rdfs:subPropertyOf owl:topObjectProperty ;
+                                               rdf:type owl:AsymmetricProperty ;
+                                               rdfs:label "gender"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/grain
+<https://w3id.org/costumeCore/ontology/grain> rdf:type owl:ObjectProperty ;
+                                              rdfs:subPropertyOf owl:topObjectProperty ;
+                                              rdf:type owl:AsymmetricProperty ;
+                                              rdfs:label "grain"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/lifeStages
+<https://w3id.org/costumeCore/ontology/lifeStages> rdf:type owl:ObjectProperty ;
+                                                   rdfs:subPropertyOf owl:topObjectProperty ;
+                                                   rdf:type owl:AsymmetricProperty ;
+                                                   rdfs:label "life stages"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/material
+<https://w3id.org/costumeCore/ontology/material> rdf:type owl:ObjectProperty ;
+                                                 rdfs:subPropertyOf owl:topObjectProperty ;
+                                                 rdf:type owl:AsymmetricProperty ;
+                                                 rdfs:label "material"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/neckline
+<https://w3id.org/costumeCore/ontology/neckline> rdf:type owl:ObjectProperty ;
+                                                 rdfs:subPropertyOf owl:topObjectProperty ;
+                                                 rdf:type owl:AsymmetricProperty ;
+                                                 rdfs:label "neckline"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/pattern
+<https://w3id.org/costumeCore/ontology/pattern> rdf:type owl:ObjectProperty ;
+                                                rdfs:subPropertyOf owl:topObjectProperty ;
+                                                rdf:type owl:AsymmetricProperty ;
+                                                rdfs:label "pattern"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/skirtLength
+<https://w3id.org/costumeCore/ontology/skirtLength> rdf:type owl:ObjectProperty ;
+                                                    rdfs:subPropertyOf owl:topObjectProperty ;
+                                                    rdf:type owl:AsymmetricProperty ;
+                                                    rdfs:label "skirt length"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/skirtType
+<https://w3id.org/costumeCore/ontology/skirtType> rdf:type owl:ObjectProperty ;
+                                                  rdfs:subPropertyOf owl:topObjectProperty ;
+                                                  rdf:type owl:AsymmetricProperty ;
+                                                  rdfs:label "skirt type"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/sleeveLength
+<https://w3id.org/costumeCore/ontology/sleeveLength> rdf:type owl:ObjectProperty ;
+                                                     rdfs:subPropertyOf owl:topObjectProperty ;
+                                                     rdf:type owl:AsymmetricProperty ;
+                                                     rdfs:label "sleeve length"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/sleeveType
+<https://w3id.org/costumeCore/ontology/sleeveType> rdf:type owl:ObjectProperty ;
+                                                   rdfs:subPropertyOf owl:topObjectProperty ;
+                                                   rdf:type owl:AsymmetricProperty ;
+                                                   rdfs:label "sleeve type"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/socioEconomicClass
+<https://w3id.org/costumeCore/ontology/socioEconomicClass> rdf:type owl:ObjectProperty ;
+                                                           rdfs:subPropertyOf owl:topObjectProperty ;
+                                                           rdf:type owl:AsymmetricProperty ;
+                                                           rdfs:label "socio-economic class"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/technique
+<https://w3id.org/costumeCore/ontology/technique> rdf:type owl:ObjectProperty ;
+                                                  rdfs:subPropertyOf owl:topObjectProperty ;
+                                                  rdf:type owl:AsymmetricProperty ;
+                                                  rdfs:label "technique"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/waistline
+<https://w3id.org/costumeCore/ontology/waistline> rdf:type owl:ObjectProperty ;
+                                                  rdfs:subPropertyOf owl:topObjectProperty ;
+                                                  rdf:type owl:AsymmetricProperty ;
+                                                  rdfs:label "waistline"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/workType
+<https://w3id.org/costumeCore/ontology/workType> rdf:type owl:ObjectProperty ;
+                                                 rdfs:subPropertyOf owl:topObjectProperty ;
+                                                 rdf:type owl:AsymmetricProperty ;
+                                                 rdfs:domain <http://purl.org/vra/Work> ;
+                                                 rdfs:range <https://w3id.org/costumeCore/ontology/Costume> ;
+                                                 rdfs:label "work type"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://purl.org/vra/Material
+<http://purl.org/vra/Material> rdf:type owl:Class ;
+                               rdfs:subClassOf owl:Thing ;
+                               rdfs:label "Material"@en .
+
+
+###  http://purl.org/vra/Technique
+<http://purl.org/vra/Technique> rdf:type owl:Class ;
+                                rdfs:subClassOf owl:Thing ;
+                                rdfs:label "Technique"@en .
+
+
+###  http://purl.org/vra/Work
+<http://purl.org/vra/Work> rdf:type owl:Class ;
+                           rdfs:subClassOf schema:CreativeWork ;
+                           rdfs:label "Work"@en .
+
+
+###  http://schema.org/CreativeWork
+schema:CreativeWork rdf:type owl:Class ;
+                    rdfs:subClassOf owl:Thing ;
+                    rdfs:label "Creative Work"@en .
+
+
+###  http://schema.org/Person
+schema:Person rdf:type owl:Class .
+
+
+###  https://w3id.org/costumeCore/ontology/Blouse
+<https://w3id.org/costumeCore/ontology/Blouse> rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://w3id.org/costumeCore/ontology/Costume> ;
+                                               rdfs:label "Blouse"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/Bodice
+<https://w3id.org/costumeCore/ontology/Bodice> rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://w3id.org/costumeCore/ontology/Costume> ;
+                                               rdfs:label "Bodice"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/Closure
+<https://w3id.org/costumeCore/ontology/Closure> rdf:type owl:Class ;
+                                                rdfs:subClassOf owl:Thing ;
+                                                rdfs:label "Closure" .
+
+
+###  https://w3id.org/costumeCore/ontology/ClosurePlacement
+<https://w3id.org/costumeCore/ontology/ClosurePlacement> rdf:type owl:Class ;
+                                                         rdfs:subClassOf owl:Thing ;
+                                                         rdfs:label "Closure Placement"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/Coat
+<https://w3id.org/costumeCore/ontology/Coat> rdf:type owl:Class ;
+                                             rdfs:subClassOf <https://w3id.org/costumeCore/ontology/Costume> ;
+                                             rdfs:label "Coat"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/Collar
+<https://w3id.org/costumeCore/ontology/Collar> rdf:type owl:Class ;
+                                               rdfs:subClassOf owl:Thing ;
+                                               rdfs:label "Collar"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/Color
+<https://w3id.org/costumeCore/ontology/Color> rdf:type owl:Class ;
+                                              rdfs:subClassOf owl:Thing ;
+                                              rdfs:label "Color"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/Costume
+<https://w3id.org/costumeCore/ontology/Costume> rdf:type owl:Class ;
+                                                rdfs:subClassOf <http://purl.org/vra/Work> ;
+                                                rdfs:isDefinedBy "http://purl.org/costumeCore/"@en ;
+                                                rdfs:label "Costume"@en-us .
+
+
+###  https://w3id.org/costumeCore/ontology/CostumeComponents
+<https://w3id.org/costumeCore/ontology/CostumeComponents> rdf:type owl:Class ;
+                                                          rdfs:subClassOf owl:Thing ;
+                                                          rdfs:label "Costume Components"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/Dolman
+<https://w3id.org/costumeCore/ontology/Dolman> rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://w3id.org/costumeCore/ontology/Costume> ;
+                                               rdfs:label "Dolman"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/Dress
+<https://w3id.org/costumeCore/ontology/Dress> rdf:type owl:Class ;
+                                              rdfs:subClassOf <https://w3id.org/costumeCore/ontology/Costume> ;
+                                              rdfs:label "Dress"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/DressType
+<https://w3id.org/costumeCore/ontology/DressType> rdf:type owl:Class ;
+                                                  rdfs:subClassOf owl:Thing ;
+                                                  rdfs:label "Dress Type"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/Function
+<https://w3id.org/costumeCore/ontology/Function> rdf:type owl:Class ;
+                                                 rdfs:subClassOf owl:Thing ;
+                                                 rdfs:label "Function"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/Gender
+<https://w3id.org/costumeCore/ontology/Gender> rdf:type owl:Class ;
+                                               rdfs:subClassOf owl:Thing ;
+                                               rdfs:label "Gender"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/Grain
+<https://w3id.org/costumeCore/ontology/Grain> rdf:type owl:Class ;
+                                              rdfs:subClassOf owl:Thing ;
+                                              rdfs:label "Grain"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/Jacket
+<https://w3id.org/costumeCore/ontology/Jacket> rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://w3id.org/costumeCore/ontology/Costume> ;
+                                               rdfs:label "Jacket"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/LifeStages
+<https://w3id.org/costumeCore/ontology/LifeStages> rdf:type owl:Class ;
+                                                   rdfs:subClassOf owl:Thing ;
+                                                   rdfs:label "Life Stages"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/Neckline
+<https://w3id.org/costumeCore/ontology/Neckline> rdf:type owl:Class ;
+                                                 rdfs:subClassOf owl:Thing ;
+                                                 rdfs:label "Neckline"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/Pants
+<https://w3id.org/costumeCore/ontology/Pants> rdf:type owl:Class ;
+                                              rdfs:subClassOf <https://w3id.org/costumeCore/ontology/Costume> ;
+                                              rdfs:label "Pants"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/Pattern
+<https://w3id.org/costumeCore/ontology/Pattern> rdf:type owl:Class ;
+                                                rdfs:subClassOf owl:Thing ;
+                                                rdfs:label "Pattern"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/Shawl
+<https://w3id.org/costumeCore/ontology/Shawl> rdf:type owl:Class ;
+                                              rdfs:subClassOf <https://w3id.org/costumeCore/ontology/Costume> ;
+                                              rdfs:label "Shawl"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/Shirt
+<https://w3id.org/costumeCore/ontology/Shirt> rdf:type owl:Class ;
+                                              rdfs:subClassOf <https://w3id.org/costumeCore/ontology/Costume> ;
+                                              rdfs:label "Shirt"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/Skirt
+<https://w3id.org/costumeCore/ontology/Skirt> rdf:type owl:Class ;
+                                              rdfs:subClassOf <https://w3id.org/costumeCore/ontology/Costume> ;
+                                              rdfs:label "Skirt"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/SkirtLength
+<https://w3id.org/costumeCore/ontology/SkirtLength> rdf:type owl:Class ;
+                                                    rdfs:subClassOf owl:Thing ;
+                                                    rdfs:label "Skirt Length"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/SkirtType
+<https://w3id.org/costumeCore/ontology/SkirtType> rdf:type owl:Class ;
+                                                  rdfs:subClassOf owl:Thing ;
+                                                  rdfs:label "Skirt Type"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/SleeveLength
+<https://w3id.org/costumeCore/ontology/SleeveLength> rdf:type owl:Class ;
+                                                     rdfs:subClassOf owl:Thing ;
+                                                     rdfs:label "Sleeve Length"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/SleeveType
+<https://w3id.org/costumeCore/ontology/SleeveType> rdf:type owl:Class ;
+                                                   rdfs:subClassOf owl:Thing ;
+                                                   rdfs:label "Sleeve Type"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/SocioEconomicClass
+<https://w3id.org/costumeCore/ontology/SocioEconomicClass> rdf:type owl:Class ;
+                                                           rdfs:subClassOf owl:Thing ;
+                                                           rdfs:label "Socio-Economic Class"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/Suit
+<https://w3id.org/costumeCore/ontology/Suit> rdf:type owl:Class ;
+                                             rdfs:subClassOf <https://w3id.org/costumeCore/ontology/Costume> ;
+                                             rdfs:label "Suit"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/Sweater
+<https://w3id.org/costumeCore/ontology/Sweater> rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://w3id.org/costumeCore/ontology/Costume> ;
+                                                rdfs:label "Sweater"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/Underwear
+<https://w3id.org/costumeCore/ontology/Underwear> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <https://w3id.org/costumeCore/ontology/Costume> ;
+                                                  rdfs:label "Underwear"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/Vest
+<https://w3id.org/costumeCore/ontology/Vest> rdf:type owl:Class ;
+                                             rdfs:subClassOf <https://w3id.org/costumeCore/ontology/Costume> ;
+                                             rdfs:label "Vest"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/Waistline
+<https://w3id.org/costumeCore/ontology/Waistline> rdf:type owl:Class ;
+                                                  rdfs:subClassOf owl:Thing ;
+                                                  rdfs:label "Waistline"@en .
+
+
+###  https://w3id.org/costumeCore/ontology/WorkType
+<https://w3id.org/costumeCore/ontology/WorkType> rdf:type owl:Class ;
+                                                 rdfs:subClassOf owl:Thing ;
+                                                 rdfs:label "Work Type"@en .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://viaf.org/viaf/315998461
+<http://viaf.org/viaf/315998461> rdf:type owl:NamedIndividual ,
+                                          schema:Person ;
+                                 schema:name """
+            Arden Kirkland
+            """ .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

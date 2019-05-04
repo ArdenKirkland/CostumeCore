@@ -1,0 +1,856 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://w3id.org/costumeCore/ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://w3id.org/costumeCore/ontology"
+     versionIRI="https://w3id.org/costumeCore/ontology/0.3.4">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="schema" IRI="http://schema.org/"/>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/contributor"/>
+        <Literal>Arden Kirkland</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="schema:creator"/>
+        <IRI>http://viaf.org/viaf/315998461</IRI>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <Literal>Costume Core</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="http://purl.org/vra/Material"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/vra/Technique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/vra/Work"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="schema:CreativeWork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Blouse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Bodice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Closure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ClosurePlacement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Coat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Collar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Color"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Costume"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/CostumeComponents"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Dolman"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Dress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/DressType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Function"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Gender"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Grain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Jacket"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/LifeStages"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Neckline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Pants"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Pattern"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Shawl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Shirt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Skirt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/SkirtLength"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/SkirtType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/SleeveLength"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/SleeveType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/SocioEconomicClass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Suit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Sweater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Underwear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Vest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Waistline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/WorkType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/closure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/closurePlacement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/collar"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/color"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/costumeComponents"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/dressType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/function"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/gender"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/grain"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/lifeStages"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/material"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/neckline"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/pattern"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/skirtLength"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/skirtType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/sleeveLength"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/sleeveType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/socioEconomicClass"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/technique"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/waistline"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/workType"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/contributor"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="schema:name"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="schema:Person"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="schema:creator"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://viaf.org/viaf/315998461"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/vra/Technique"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/vra/Work"/>
+        <Class abbreviatedIRI="schema:CreativeWork"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="schema:CreativeWork"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Blouse"/>
+        <Class IRI="/Costume"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Bodice"/>
+        <Class IRI="/Costume"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Closure"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ClosurePlacement"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Coat"/>
+        <Class IRI="/Costume"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Collar"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Color"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Costume"/>
+        <Class IRI="http://purl.org/vra/Work"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/CostumeComponents"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Dolman"/>
+        <Class IRI="/Costume"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Dress"/>
+        <Class IRI="/Costume"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/DressType"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Function"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Gender"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Grain"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Jacket"/>
+        <Class IRI="/Costume"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/LifeStages"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Neckline"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Pants"/>
+        <Class IRI="/Costume"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Pattern"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Shawl"/>
+        <Class IRI="/Costume"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Shirt"/>
+        <Class IRI="/Costume"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Skirt"/>
+        <Class IRI="/Costume"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/SkirtLength"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/SkirtType"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/SleeveLength"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/SleeveType"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/SocioEconomicClass"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Suit"/>
+        <Class IRI="/Costume"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Sweater"/>
+        <Class IRI="/Costume"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Underwear"/>
+        <Class IRI="/Costume"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Vest"/>
+        <Class IRI="/Costume"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Waistline"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/WorkType"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class abbreviatedIRI="schema:Person"/>
+        <NamedIndividual IRI="http://viaf.org/viaf/315998461"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/closure"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/closurePlacement"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/collar"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/color"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/costumeComponents"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/dressType"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/function"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/gender"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/grain"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/lifeStages"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/material"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/neckline"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/pattern"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/skirtLength"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/skirtType"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/sleeveLength"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/sleeveType"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/socioEconomicClass"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/technique"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/waistline"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/workType"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/closure"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/closurePlacement"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/collar"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/color"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/costumeComponents"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/dressType"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/function"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/gender"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/grain"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/lifeStages"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/material"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/neckline"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/pattern"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/skirtLength"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/skirtType"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/sleeveLength"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/sleeveType"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/socioEconomicClass"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/technique"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/waistline"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="/workType"/>
+    </AsymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/closure"/>
+        <Class IRI="/Costume"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/workType"/>
+        <Class IRI="http://purl.org/vra/Work"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/closure"/>
+        <Class IRI="/Closure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/workType"/>
+        <Class IRI="/Costume"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vra/Material</IRI>
+        <Literal xml:lang="en">Material</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vra/Technique</IRI>
+        <Literal xml:lang="en">Technique</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vra/Work</IRI>
+        <Literal xml:lang="en">Work</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>schema:CreativeWork</AbbreviatedIRI>
+        <Literal xml:lang="en">Creative Work</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="schema:name"/>
+        <IRI>http://viaf.org/viaf/315998461</IRI>
+        <Literal>
+            Arden Kirkland
+            </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Blouse</IRI>
+        <Literal xml:lang="en">Blouse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Bodice</IRI>
+        <Literal xml:lang="en">Bodice</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Closure</IRI>
+        <Literal>Closure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/ClosurePlacement</IRI>
+        <Literal xml:lang="en">Closure Placement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Coat</IRI>
+        <Literal xml:lang="en">Coat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Collar</IRI>
+        <Literal xml:lang="en">Collar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Color</IRI>
+        <Literal xml:lang="en">Color</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>/Costume</IRI>
+        <Literal xml:lang="en">http://purl.org/costumeCore/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Costume</IRI>
+        <Literal xml:lang="en-us">Costume</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/CostumeComponents</IRI>
+        <Literal xml:lang="en">Costume Components</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Dolman</IRI>
+        <Literal xml:lang="en">Dolman</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Dress</IRI>
+        <Literal xml:lang="en">Dress</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/DressType</IRI>
+        <Literal xml:lang="en">Dress Type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Function</IRI>
+        <Literal xml:lang="en">Function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Gender</IRI>
+        <Literal xml:lang="en">Gender</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Grain</IRI>
+        <Literal xml:lang="en">Grain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Jacket</IRI>
+        <Literal xml:lang="en">Jacket</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/LifeStages</IRI>
+        <Literal xml:lang="en">Life Stages</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Neckline</IRI>
+        <Literal xml:lang="en">Neckline</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Pants</IRI>
+        <Literal xml:lang="en">Pants</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Pattern</IRI>
+        <Literal xml:lang="en">Pattern</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Shawl</IRI>
+        <Literal xml:lang="en">Shawl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Shirt</IRI>
+        <Literal xml:lang="en">Shirt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Skirt</IRI>
+        <Literal xml:lang="en">Skirt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/SkirtLength</IRI>
+        <Literal xml:lang="en">Skirt Length</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/SkirtType</IRI>
+        <Literal xml:lang="en">Skirt Type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/SleeveLength</IRI>
+        <Literal xml:lang="en">Sleeve Length</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/SleeveType</IRI>
+        <Literal xml:lang="en">Sleeve Type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/SocioEconomicClass</IRI>
+        <Literal xml:lang="en">Socio-Economic Class</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Suit</IRI>
+        <Literal xml:lang="en">Suit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Sweater</IRI>
+        <Literal xml:lang="en">Sweater</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Underwear</IRI>
+        <Literal xml:lang="en">Underwear</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Vest</IRI>
+        <Literal xml:lang="en">Vest</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Waistline</IRI>
+        <Literal xml:lang="en">Waistline</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/WorkType</IRI>
+        <Literal xml:lang="en">Work Type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>/closure</IRI>
+        <IRI>http://purl.org/costumeCore/ontology/</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/closure</IRI>
+        <Literal xml:lang="en">closure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/closurePlacement</IRI>
+        <Literal xml:lang="en">closure placement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/collar</IRI>
+        <Literal xml:lang="en">collar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/color</IRI>
+        <Literal xml:lang="en">color</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/costumeComponents</IRI>
+        <Literal xml:lang="en-us">costume components</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/dressType</IRI>
+        <Literal xml:lang="en">dress type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/function</IRI>
+        <Literal xml:lang="en">function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/gender</IRI>
+        <Literal xml:lang="en">gender</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/grain</IRI>
+        <Literal xml:lang="en">grain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/lifeStages</IRI>
+        <Literal xml:lang="en">life stages</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/material</IRI>
+        <Literal xml:lang="en">material</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/neckline</IRI>
+        <Literal xml:lang="en">neckline</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/pattern</IRI>
+        <Literal xml:lang="en">pattern</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/skirtLength</IRI>
+        <Literal xml:lang="en">skirt length</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/skirtType</IRI>
+        <Literal xml:lang="en">skirt type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/sleeveLength</IRI>
+        <Literal xml:lang="en">sleeve length</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/sleeveType</IRI>
+        <Literal xml:lang="en">sleeve type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/socioEconomicClass</IRI>
+        <Literal xml:lang="en">socio-economic class</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/technique</IRI>
+        <Literal xml:lang="en">technique</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/waistline</IRI>
+        <Literal xml:lang="en">waistline</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/workType</IRI>
+        <Literal xml:lang="en">work type</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
