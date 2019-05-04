@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://w3id.org/costumeCore/ontology#"
+<rdf:RDF xmlns="https://w3id.org/costumeCore/ontology"
      xml:base="https://w3id.org/costumeCore/ontology"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -11,7 +11,6 @@
     <owl:Ontology rdf:about="https://w3id.org/costumeCore/ontology">
         <owl:versionIRI rdf:resource="https://w3id.org/costumeCore/ontology/0.3.4"/>
         <terms:contributor>Arden Kirkland</terms:contributor>
-        <schema:creator rdf:resource="http://viaf.org/viaf/315998461"/>
         <rdfs:label>Costume Core</rdfs:label>
     </owl:Ontology>
     
@@ -643,13 +642,3386 @@
     
 
 
-    <!-- http://viaf.org/viaf/315998461 -->
+    <!-- https://w3id.org/costumeCore/ontology#CC00001 -->
 
-    <owl:NamedIndividual rdf:about="http://viaf.org/viaf/315998461">
-        <rdf:type rdf:resource="http://schema.org/Person"/>
-        <schema:name>
-            Arden Kirkland
-            </schema:name>
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00001">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Closure"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">buckle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00002 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00002">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Closure"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">buttons</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00003 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00003">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Closure"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">frogs</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00004 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00004">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Closure"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hooks and eyes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00005 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00005">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Closure"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lacing</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00006 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00006">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Closure"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metal eyelets</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00007 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00007">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/DressType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wrap dress</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00008 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00008">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Closure"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">snaps</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00009 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00009">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Closure"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thread eyelets</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00010 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00010">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Closure"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ties</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00011 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00011">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Closure"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">toggles</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00012 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00012">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Closure"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">velcro</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00013 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00013">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Closure"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zipper</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00014 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00014">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Neckline"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">boat neck</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00015 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00015">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Neckline"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crew</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00016 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00016">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Neckline"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">halter</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00017 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00017">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Neckline"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">henley</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00018 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00018">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Neckline"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inset</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00019 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00019">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Neckline"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jewel</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00020 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00020">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Neckline"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">keyhole</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00021 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00021">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Neckline"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">off the shoulder</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00022 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00022">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/DressType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">round gown</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00023 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00023">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Neckline"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scoop neck</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00024 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00024">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Neckline"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">square neckline</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00025 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00025">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Neckline"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">strapless</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00026 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00026">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Neckline"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sweetheart</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00027 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00027">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Neckline"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">v-neck</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00028 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00028">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Collar"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ascot</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00029 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00029">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Collar"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">band (collar)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00030 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00030">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Collar"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bertha</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00031 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00031">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Collar"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bow</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00032 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00032">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Collar"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chelsea collar</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00033 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00033">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Collar"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">convertible collar</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00034 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00034">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Collar"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cowl neck</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00035 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00035">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Collar"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">funnel neck</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00036 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00036">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Collar"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jabot</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00037 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00037">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Collar"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mandarin collar</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00038 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00038">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Collar"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Napoleon</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00039 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00039">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Collar"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peaked lapel</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00040 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00040">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Collar"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peter Pan collar</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00041 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00041">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Collar"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polo neck</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00042 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00042">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Collar"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">portrait collar</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00043 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00043">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Collar"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Puritan collar</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00044 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00044">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Collar"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ruffled neck</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00045 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00045">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Collar"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sailor collar</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00046 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00046">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/WorkType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shawl</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00047 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00047">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Collar"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">turtleneck</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00048 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00048">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Collar"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wingtip collar</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00049 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00049">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Color"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beige</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00050 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00050">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Color"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">black</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00051 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00051">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Color"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blue</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00052 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00052">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Color"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brown</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00053 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00053">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Color"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">burgundy</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00054 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00054">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Color"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coral</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00055 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00055">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Color"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cream</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00056 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00056">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Color"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fuchsia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00057 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00057">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Color"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gold</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00058 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00058">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Color"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gray</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00059 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00059">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Color"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">green</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00060 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00060">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Color"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lavender</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00061 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00061">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Color"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maroon</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00062 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00062">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Color"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicolor</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00063 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00063">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Color"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">navy blue</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00064 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00064">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Color"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orange</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00065 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00065">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Color"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pink</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00066 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00066">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Color"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">purple</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00067 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00067">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Color"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">red</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00068 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00068">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Color"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rust (color)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00069 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00069">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Color"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00070 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00070">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Color"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">teal</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00071 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00071">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Color"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">turquoise</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00072 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00072">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Color"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">white</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00073 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00073">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Color"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yellow</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00074 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00074">
+        <rdf:type rdf:resource="http://purl.org/vra/Technique"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">applique</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00075 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00075">
+        <rdf:type rdf:resource="http://purl.org/vra/Technique"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beading</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00076 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00076">
+        <rdf:type rdf:resource="http://purl.org/vra/Technique"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">braiding</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00077 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00077">
+        <rdf:type rdf:resource="http://purl.org/vra/Technique"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">burn-out</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00078 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00078">
+        <rdf:type rdf:resource="http://purl.org/vra/Technique"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crocheting</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00079 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00079">
+        <rdf:type rdf:resource="http://purl.org/vra/Technique"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drawloom</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00080 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00080">
+        <rdf:type rdf:resource="http://purl.org/vra/Technique"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embossing</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00081 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00081">
+        <rdf:type rdf:resource="http://purl.org/vra/Technique"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embroidery</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00082 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00082">
+        <rdf:type rdf:resource="http://purl.org/vra/Technique"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flocking</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00083 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00083">
+        <rdf:type rdf:resource="http://purl.org/vra/Technique"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glazing</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00084 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00084">
+        <rdf:type rdf:resource="http://purl.org/vra/Technique"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hand sewing</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00085 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00085">
+        <rdf:type rdf:resource="http://purl.org/vra/Technique"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hand weaving</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00086 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00086">
+        <rdf:type rdf:resource="http://purl.org/vra/Technique"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">knitting</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00087 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00087">
+        <rdf:type rdf:resource="http://purl.org/vra/Technique"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lace making</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00088 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00088">
+        <rdf:type rdf:resource="http://purl.org/vra/Technique"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">machine sewing</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00089 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00089">
+        <rdf:type rdf:resource="http://purl.org/vra/Technique"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mercerizing</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00090 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00090">
+        <rdf:type rdf:resource="http://purl.org/vra/Technique"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">needle work</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00091 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00091">
+        <rdf:type rdf:resource="http://purl.org/vra/Technique"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">needlepoint</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00092 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00092">
+        <rdf:type rdf:resource="http://purl.org/vra/Technique"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">painting</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00093 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00093">
+        <rdf:type rdf:resource="http://purl.org/vra/Technique"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">piecing</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00094 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00094">
+        <rdf:type rdf:resource="http://purl.org/vra/Technique"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">piping</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00095 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00095">
+        <rdf:type rdf:resource="http://purl.org/vra/Technique"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pleating</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00096 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00096">
+        <rdf:type rdf:resource="http://purl.org/vra/Technique"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polishing</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00097 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00097">
+        <rdf:type rdf:resource="http://purl.org/vra/Technique"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">printing</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00098 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00098">
+        <rdf:type rdf:resource="http://purl.org/vra/Technique"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quilting</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00099 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00099">
+        <rdf:type rdf:resource="http://purl.org/vra/Technique"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ruffling</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00100 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00100">
+        <rdf:type rdf:resource="http://purl.org/vra/Technique"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">smocking</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00101 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00101">
+        <rdf:type rdf:resource="http://purl.org/vra/Technique"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">weaving</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00102 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00102">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SkirtType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a-line</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00103 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00103">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Grain"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bias-cut</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00104 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00104">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/DressType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bustle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00106 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00106">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/WorkType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coat</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00107 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00107">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SkirtType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crinoline (petticoat)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00108 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00108">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/DressType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drop-waist</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00109 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00109">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/DressType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Empire dress</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00110 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00110">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/DressType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fit and flare</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00111 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00111">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/DressType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hourglass (silhouette)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00112 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00112">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/DressType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jumper</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00113 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00113">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/DressType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mantua</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00114 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00114">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/DressType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pinafore</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00115 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00115">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/DressType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polonaise</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00116 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00116">
+        <rdf:type rdf:resource="http://purl.org/vra/Technique"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">princess seam</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00117 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00117">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/DressType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">robe a l&apos;Anglaise</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00118 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00118">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/DressType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">robe a la Francaise</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00119 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00119">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Neckline"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">round neckline</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00120 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00120">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/DressType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S-curve</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00121 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00121">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/DressType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sheath dress</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00122 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00122">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/DressType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shirtwaist dress</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00123 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00123">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/DressType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">slip</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00124 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00124">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/DressType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trapeze dress</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00125 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00125">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/DressType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">toga</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00126 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00126">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/DressType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tunic</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00127 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00127">
+        <rdf:type rdf:resource="http://purl.org/vra/Technique"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wrapping</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00128 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00128">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SleeveType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">batwing</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00129 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00129">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SkirtType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bell skirt</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00130 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00130">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SleeveType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bishop sleeve</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00131 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00131">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SleeveType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dolman sleeve</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00132 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00132">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SleeveType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juliet</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00134 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00134">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SleeveType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lantern sleeve</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00135 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00135">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SleeveType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leg-of-mutton sleeve</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00136 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00136">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SleeveType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">petal</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00137 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00137">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SleeveType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">puff</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00138 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00138">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SleeveType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">raglan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00139 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00139">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SleeveType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">roll-up sleeves</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00140 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00140">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SleeveType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sleeve panes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00141 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00141">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SleeveType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">straight</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00142 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00142">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SleeveType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shoulder straps</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00143 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00143">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SleeveType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tank top</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00144 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00144">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SleeveLength"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cap sleeve</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00145 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00145">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SleeveLength"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">short sleeve</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00146 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00146">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SleeveLength"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">elbow length sleeve</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00147 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00147">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SleeveLength"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">three-quarter length sleeve</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00148 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00148">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SleeveLength"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">long sleeve</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00149 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00149">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SleeveLength"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">extra long sleeve</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00150 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00150">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SleeveLength"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hanging sleeve</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00151 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00151">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Waistline"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">angled waistline</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00152 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00152">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Waistline"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">asymmetrical</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00153 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00153">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Waistline"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bare midriff</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00154 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00154">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Waistline"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basque</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00155 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00155">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Waistline"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bolero</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00156 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00156">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Waistline"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">curved</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00157 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00157">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Waistline"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dropped</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00158 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00158">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Waistline"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00159 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00159">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Waistline"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hip-level</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00160 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00160">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">natural fiber</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00161 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00161">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Waistline"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no waistline</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00162 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00162">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Waistline"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pointed</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00163 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00163">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SkirtType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">accordion pleats</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00164 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00164">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SkirtType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">balloon skirt</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00165 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00165">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SkirtType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">box-pleated</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00166 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00166">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SkirtType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">circle skirt</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00167 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00167">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SkirtType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dirndl</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00168 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00168">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SkirtType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flared</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00169 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00169">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SkirtType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flounced</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00170 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00170">
+        <rdf:type rdf:resource="http://purl.org/vra/Technique"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gathering</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00171 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00171">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SkirtType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gored</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00173 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00173">
+        <rdf:type rdf:resource="http://purl.org/vra/Technique"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">layering</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00174 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00174">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SkirtType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peg-top</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00175 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00175">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SkirtType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pegged</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00176 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00176">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/CostumeComponents"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peplum</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00177 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00177">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SkirtType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pleated skirt</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00178 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00178">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SkirtType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prairie skirt</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00179 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00179">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SkirtType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sarong</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00180 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00180">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SkirtType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pencil skirt</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00181 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00181">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SkirtType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">swagged</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00182 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00182">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SkirtType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tiered</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00183 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00183">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SkirtType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trumpet skirt</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00184 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00184">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/CostumeComponents"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yoke</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00185 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00185">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SkirtLength"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">above knee</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00186 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00186">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SkirtLength"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ankle length</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00187 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00187">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SkirtLength"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">floor length</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00188 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00188">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SkirtLength"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hip length</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00189 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00189">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SkirtLength"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">knee length</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00190 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00190">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/DressType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maxi dresses</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00191 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00191">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SkirtLength"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mid calf length</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00192 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00192">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SkirtLength"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mid-thigh length</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00193 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00193">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/DressType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">midi dresses</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00194 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00194">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SkirtLength"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">train</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00195 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00195">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acetate</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00196 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00196">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acrylic</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00197 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00197">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">angora</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00198 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00198">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basket weave</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00199 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00199">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">boning</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00200 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00200">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brocade</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00201 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00201">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">camel hair</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00202 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00202">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cashmere</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00203 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00203">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chiffon</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00204 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00204">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">corduroy</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00205 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00205">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cotton</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00206 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00206">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crepe</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00207 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00207">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crochet</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00208 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00208">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">damask</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00209 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00209">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dobby weave</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00210 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00210">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double-weave</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00211 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00211">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">elastic</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00212 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00212">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">felt</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00213 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00213">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fiber blend</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00214 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00214">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">georgette</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00215 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00215">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glass</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00216 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00216">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hemp</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00217 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00217">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jacquard</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00218 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00218">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">knit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00219 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00219">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lace</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00220 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00220">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leather</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00221 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00221">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">linen</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00222 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00222">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">looped pile</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00223 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00223">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">matelasse</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00224 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00224">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metal</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00225 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00225">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microfiber</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00226 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00226">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mohair</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00227 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00227">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">moire</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00228 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00228">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Waistline"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">natural waistline</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00229 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00229">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">net</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00230 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00230">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nylon</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00231 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00231">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plain weave</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00232 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00232">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plastic</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00233 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00233">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polyester</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00234 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00234">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ramie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00235 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00235">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rayon</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00236 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00236">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rib knit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00237 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00237">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rib weave</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00238 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00238">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ribbon</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00239 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00239">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">satin</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00240 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00240">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sheared pile</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00241 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00241">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shell</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00242 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00242">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">silk</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00243 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00243">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spandex</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00244 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00244">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">synthetic fiber</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00245 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00245">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">taffeta</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00246 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00246">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">twill weave</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00247 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00247">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">velvet</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00248 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00248">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wax</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00249 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00249">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wood</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00250 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00250">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wool</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00251 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00251">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SkirtType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bustle skirt</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00252 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00252">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/DressType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemise dress</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00254 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00254">
+        <rdf:type rdf:resource="http://purl.org/vra/Technique"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embroidering</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00255 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00255">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SkirtType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">handkerchief hem</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00256 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00256">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SleeveType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kimono sleeve</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00257 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00257">
+        <rdf:type rdf:resource="http://purl.org/vra/Technique"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">needlepoint (needleworking)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00258 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00258">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Collar"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shawl collar</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00259 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00259">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adhesive</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00260 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00260">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">batiste</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00261 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00261">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">batting</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00262 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00262">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beads</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00263 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00263">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SleeveType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cowl sleeve</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00264 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00264">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">braid</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00265 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00265">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brass</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00266 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00266">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">buckram</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00267 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00267">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardboard</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00268 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00268">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chenille</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00269 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00269">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">China silk</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00270 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00270">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chintz</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00271 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00271">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cloth</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00272 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00272">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cord</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00273 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00273">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dacron</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00274 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00274">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dupioni</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00275 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00275">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">faille</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00276 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00276">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feathers</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00277 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00277">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Pattern"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">floral pattern</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00278 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00278">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flowers</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00279 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00279">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fur</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00280 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00280">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gabardine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00281 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00281">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gauze</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00282 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00282">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">horsehair</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00283 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00283">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jersey</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00284 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00284">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jet</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00285 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00285">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lawn</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00286 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00286">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leaves</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00287 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00287">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/CostumeComponents"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lining</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00288 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00288">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">merino</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00289 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00289">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mesh</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00290 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00290">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Color"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metallic</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00291 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00291">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mink fur</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00292 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00292">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mother of pearl</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00293 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00293">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muslin</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00294 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00294">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organza</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00295 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00295">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paint</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00296 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00296">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paper</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00297 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00297">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pearl</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00298 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00298">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">piña cloth</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00299 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00299">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pineapple fiber</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00300 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00300">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Pattern"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plaid</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00301 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00301">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pongee</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00302 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00302">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">porcelain</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00303 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00303">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">raffia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00304 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00304">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhinestones</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00305 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00305">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rope</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00306 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00306">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rubber</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00307 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00307">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequins</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00308 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00308">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skin</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00309 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00309">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">starch</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00310 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00310">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">steel</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00311 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00311">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">straw</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00312 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00312">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tassel</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00313 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00313">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thread</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00314 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00314">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trimming</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00315 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00315">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tulle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00316 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00316">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">twill</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00317 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00317">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">twill tape</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00318 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00318">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vinyl</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00319 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00319">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">voile</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00321 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00321">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">webbing</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00322 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00322">
+        <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wire</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00323 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00323">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/DressType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coatdress</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00324 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00324">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/DressType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crinoline (silhouette)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00325 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00325">
+        <rdf:type rdf:resource="http://purl.org/vra/Technique"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tucks</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00331 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00331">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Grain"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">straight grain</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00332 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00332">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Grain"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lengthwise grain</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00333 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00333">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Grain"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crosswise grain</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00334 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00334">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/WorkType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dolman</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00335 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00335">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/WorkType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dress</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00336 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00336">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/WorkType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bodice</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00337 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00337">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/WorkType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blouse</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00339 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00339">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/WorkType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jacket</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00340 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00340">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/WorkType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shirt</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00341 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00341">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/WorkType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skirt</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00342 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00342">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/WorkType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">suit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00343 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00343">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/WorkType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sweater</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00344 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00344">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/WorkType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pants</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00345 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00345">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/WorkType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">underwear</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00346 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00346">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/WorkType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vest</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00348 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00348">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/ClosurePlacement"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">center back closure</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00349 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00349">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/ClosurePlacement"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">center front closure</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00350 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00350">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/ClosurePlacement"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double-breasted closure</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00351 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00351">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/ClosurePlacement"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neck closure</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00352 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00352">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/ClosurePlacement"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">off-center back closure</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00353 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00353">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/ClosurePlacement"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">off-center front closure</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00354 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00354">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/ClosurePlacement"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">side closure</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00364 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00364">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Gender"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">womenswear</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00365 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00365">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Gender"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">menswear</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00366 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00366">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Gender"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unisex clothing</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00368 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00368">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Function"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">day wear</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00369 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00369">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Function"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dinner dress</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00370 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00370">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Function"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">evening dress</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00371 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00371">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Function"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">graduation dress</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00372 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00372">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Function"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">military uniform</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00373 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00373">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Function"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">morning dress</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00374 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00374">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Function"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mourning dress</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00375 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00375">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Function"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">party dress</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00376 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00376">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Function"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">school uniform</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00377 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00377">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Function"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sports uniform</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00378 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00378">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Function"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uniform</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00379 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00379">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Function"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wedding dress</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00380 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00380">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/Function"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">work clothes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00382 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00382">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/LifeStages"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">childhood</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00383 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00383">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/LifeStages"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infancy</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00384 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00384">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/LifeStages"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adolescence</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00385 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00385">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/LifeStages"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adulthood</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00386 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00386">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/LifeStages"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">middle age</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00387 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00387">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/LifeStages"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">old age</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00389 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00389">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SocioEconomicClass"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">working class</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00390 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00390">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SocioEconomicClass"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">middle class</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00391 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00391">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SocioEconomicClass"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">upper class</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00393 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00393">
+        <rdf:type rdf:resource="http://purl.org/vra/Technique"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dart</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00394 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00394">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/CostumeComponents"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cuff</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00395 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00395">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/CostumeComponents"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epaulette</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00396 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00396">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/CostumeComponents"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">facing</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00397 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00397">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/CostumeComponents"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pocket</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00398 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00398">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/CostumeComponents"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shoulder pad</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00399 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00399">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/CostumeComponents"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">waistband</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00400 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00400">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/CostumeComponents"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wristband</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/costumeCore/ontology#CC00401 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/costumeCore/ontology#CC00401">
+        <rdf:type rdf:resource="https://w3id.org/costumeCore/ontology/SleeveType"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">two piece tailored sleeve</rdfs:label>
     </owl:NamedIndividual>
 </rdf:RDF>
 

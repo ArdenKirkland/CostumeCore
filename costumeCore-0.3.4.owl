@@ -7,6 +7,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="https://w3id.org/costumeCore/ontology"
      versionIRI="https://w3id.org/costumeCore/ontology/0.3.4">
+    <Prefix name="" IRI="https://w3id.org/costumeCore/ontology"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -16,10 +17,6 @@
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/terms/contributor"/>
         <Literal>Arden Kirkland</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="schema:creator"/>
-        <IRI>http://viaf.org/viaf/315998461</IRI>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -36,6 +33,9 @@
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="schema:CreativeWork"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="schema:Person"/>
     </Declaration>
     <Declaration>
         <Class IRI="/Blouse"/>
@@ -203,19 +203,1141 @@
         <ObjectProperty IRI="/workType"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#CC00001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00003"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00004"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00005"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00006"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00007"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00008"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00009"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00010"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00011"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00012"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00013"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00014"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00015"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00016"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00017"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00018"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00019"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00020"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00021"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00022"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00023"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00024"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00025"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00026"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00027"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00028"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00029"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00030"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00031"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00032"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00033"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00034"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00035"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00036"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00037"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00038"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00039"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00040"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00041"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00042"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00043"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00044"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00045"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00046"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00047"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00048"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00049"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00050"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00051"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00052"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00053"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00054"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00055"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00056"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00057"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00058"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00059"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00060"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00061"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00062"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00063"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00064"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00065"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00066"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00067"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00068"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00069"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00070"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00071"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00072"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00073"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00074"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00075"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00076"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00077"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00078"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00079"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00080"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00081"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00082"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00083"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00084"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00085"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00086"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00087"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00088"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00089"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00090"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00091"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00092"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00093"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00094"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00095"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00096"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00097"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00098"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00099"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00100"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00101"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00102"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00103"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00104"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00106"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00107"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00108"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00109"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00110"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00111"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00112"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00113"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00114"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00115"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00116"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00117"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00118"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00119"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00120"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00121"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00122"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00123"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00124"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00125"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00126"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00127"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00128"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00129"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00130"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00131"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00132"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00134"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00135"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00136"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00137"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00138"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00139"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00140"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00141"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00142"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00143"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00144"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00145"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00146"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00147"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00148"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00149"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00150"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00151"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00152"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00153"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00154"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00155"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00156"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00157"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00158"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00159"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00160"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00161"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00162"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00163"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00164"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00165"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00166"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00167"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00168"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00169"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00170"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00171"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00173"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00174"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00175"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00176"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00177"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00178"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00179"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00180"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00181"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00182"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00183"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00184"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00185"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00186"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00187"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00188"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00189"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00190"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00191"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00192"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00193"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00194"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00195"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00196"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00197"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00198"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00199"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00200"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00201"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00202"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00203"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00204"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00205"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00206"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00207"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00208"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00209"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00210"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00211"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00212"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00213"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00214"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00215"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00216"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00217"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00218"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00219"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00220"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00221"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00222"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00223"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00224"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00225"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00226"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00227"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00228"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00229"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00230"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00231"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00232"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00233"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00234"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00235"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00236"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00237"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00238"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00239"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00240"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00241"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00242"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00243"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00244"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00245"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00246"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00247"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00248"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00249"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00250"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00251"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00252"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00254"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00255"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00256"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00257"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00258"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00259"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00260"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00261"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00262"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00263"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00264"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00265"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00266"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00267"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00268"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00269"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00270"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00271"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00272"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00273"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00274"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00275"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00276"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00277"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00278"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00279"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00280"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00281"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00282"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00283"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00284"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00285"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00286"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00287"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00288"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00289"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00290"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00291"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00292"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00293"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00294"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00295"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00296"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00297"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00298"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00299"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00300"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00301"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00302"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00303"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00304"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00305"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00306"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00307"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00308"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00309"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00310"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00311"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00312"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00313"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00314"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00315"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00316"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00317"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00318"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00319"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00321"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00322"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00323"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00324"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00325"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00331"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00332"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00333"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00334"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00335"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00336"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00337"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00339"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00340"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00341"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00342"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00343"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00344"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00345"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00346"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00348"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00349"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00350"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00351"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00352"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00353"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00354"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00364"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00365"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00366"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00368"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00369"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00370"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00371"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00372"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00373"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00374"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00375"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00376"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00377"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00378"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00379"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00380"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00382"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00383"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00384"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00385"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00386"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00387"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00389"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00390"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00391"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00393"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00394"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00395"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00396"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00397"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00398"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00399"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00400"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CC00401"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty IRI="http://purl.org/dc/terms/contributor"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="schema:name"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="schema:Person"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="schema:creator"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://viaf.org/viaf/315998461"/>
+        <AnnotationProperty abbreviatedIRI="schema:name"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="http://purl.org/vra/Material"/>
@@ -370,8 +1492,1508 @@
         <Class abbreviatedIRI="owl:Thing"/>
     </SubClassOf>
     <ClassAssertion>
-        <Class abbreviatedIRI="schema:Person"/>
-        <NamedIndividual IRI="http://viaf.org/viaf/315998461"/>
+        <Class IRI="/Closure"/>
+        <NamedIndividual IRI="#CC00001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Closure"/>
+        <NamedIndividual IRI="#CC00002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Closure"/>
+        <NamedIndividual IRI="#CC00003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Closure"/>
+        <NamedIndividual IRI="#CC00004"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Closure"/>
+        <NamedIndividual IRI="#CC00005"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Closure"/>
+        <NamedIndividual IRI="#CC00006"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/DressType"/>
+        <NamedIndividual IRI="#CC00007"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Closure"/>
+        <NamedIndividual IRI="#CC00008"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Closure"/>
+        <NamedIndividual IRI="#CC00009"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Closure"/>
+        <NamedIndividual IRI="#CC00010"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Closure"/>
+        <NamedIndividual IRI="#CC00011"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Closure"/>
+        <NamedIndividual IRI="#CC00012"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Closure"/>
+        <NamedIndividual IRI="#CC00013"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Neckline"/>
+        <NamedIndividual IRI="#CC00014"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Neckline"/>
+        <NamedIndividual IRI="#CC00015"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Neckline"/>
+        <NamedIndividual IRI="#CC00016"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Neckline"/>
+        <NamedIndividual IRI="#CC00017"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Neckline"/>
+        <NamedIndividual IRI="#CC00018"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Neckline"/>
+        <NamedIndividual IRI="#CC00019"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Neckline"/>
+        <NamedIndividual IRI="#CC00020"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Neckline"/>
+        <NamedIndividual IRI="#CC00021"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/DressType"/>
+        <NamedIndividual IRI="#CC00022"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Neckline"/>
+        <NamedIndividual IRI="#CC00023"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Neckline"/>
+        <NamedIndividual IRI="#CC00024"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Neckline"/>
+        <NamedIndividual IRI="#CC00025"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Neckline"/>
+        <NamedIndividual IRI="#CC00026"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Neckline"/>
+        <NamedIndividual IRI="#CC00027"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Collar"/>
+        <NamedIndividual IRI="#CC00028"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Collar"/>
+        <NamedIndividual IRI="#CC00029"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Collar"/>
+        <NamedIndividual IRI="#CC00030"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Collar"/>
+        <NamedIndividual IRI="#CC00031"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Collar"/>
+        <NamedIndividual IRI="#CC00032"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Collar"/>
+        <NamedIndividual IRI="#CC00033"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Collar"/>
+        <NamedIndividual IRI="#CC00034"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Collar"/>
+        <NamedIndividual IRI="#CC00035"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Collar"/>
+        <NamedIndividual IRI="#CC00036"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Collar"/>
+        <NamedIndividual IRI="#CC00037"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Collar"/>
+        <NamedIndividual IRI="#CC00038"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Collar"/>
+        <NamedIndividual IRI="#CC00039"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Collar"/>
+        <NamedIndividual IRI="#CC00040"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Collar"/>
+        <NamedIndividual IRI="#CC00041"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Collar"/>
+        <NamedIndividual IRI="#CC00042"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Collar"/>
+        <NamedIndividual IRI="#CC00043"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Collar"/>
+        <NamedIndividual IRI="#CC00044"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Collar"/>
+        <NamedIndividual IRI="#CC00045"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/WorkType"/>
+        <NamedIndividual IRI="#CC00046"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Collar"/>
+        <NamedIndividual IRI="#CC00047"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Collar"/>
+        <NamedIndividual IRI="#CC00048"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Color"/>
+        <NamedIndividual IRI="#CC00049"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Color"/>
+        <NamedIndividual IRI="#CC00050"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Color"/>
+        <NamedIndividual IRI="#CC00051"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Color"/>
+        <NamedIndividual IRI="#CC00052"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Color"/>
+        <NamedIndividual IRI="#CC00053"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Color"/>
+        <NamedIndividual IRI="#CC00054"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Color"/>
+        <NamedIndividual IRI="#CC00055"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Color"/>
+        <NamedIndividual IRI="#CC00056"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Color"/>
+        <NamedIndividual IRI="#CC00057"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Color"/>
+        <NamedIndividual IRI="#CC00058"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Color"/>
+        <NamedIndividual IRI="#CC00059"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Color"/>
+        <NamedIndividual IRI="#CC00060"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Color"/>
+        <NamedIndividual IRI="#CC00061"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Color"/>
+        <NamedIndividual IRI="#CC00062"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Color"/>
+        <NamedIndividual IRI="#CC00063"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Color"/>
+        <NamedIndividual IRI="#CC00064"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Color"/>
+        <NamedIndividual IRI="#CC00065"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Color"/>
+        <NamedIndividual IRI="#CC00066"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Color"/>
+        <NamedIndividual IRI="#CC00067"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Color"/>
+        <NamedIndividual IRI="#CC00068"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Color"/>
+        <NamedIndividual IRI="#CC00069"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Color"/>
+        <NamedIndividual IRI="#CC00070"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Color"/>
+        <NamedIndividual IRI="#CC00071"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Color"/>
+        <NamedIndividual IRI="#CC00072"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Color"/>
+        <NamedIndividual IRI="#CC00073"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Technique"/>
+        <NamedIndividual IRI="#CC00074"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Technique"/>
+        <NamedIndividual IRI="#CC00075"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Technique"/>
+        <NamedIndividual IRI="#CC00076"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Technique"/>
+        <NamedIndividual IRI="#CC00077"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Technique"/>
+        <NamedIndividual IRI="#CC00078"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Technique"/>
+        <NamedIndividual IRI="#CC00079"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Technique"/>
+        <NamedIndividual IRI="#CC00080"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Technique"/>
+        <NamedIndividual IRI="#CC00081"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Technique"/>
+        <NamedIndividual IRI="#CC00082"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Technique"/>
+        <NamedIndividual IRI="#CC00083"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Technique"/>
+        <NamedIndividual IRI="#CC00084"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Technique"/>
+        <NamedIndividual IRI="#CC00085"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Technique"/>
+        <NamedIndividual IRI="#CC00086"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Technique"/>
+        <NamedIndividual IRI="#CC00087"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Technique"/>
+        <NamedIndividual IRI="#CC00088"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Technique"/>
+        <NamedIndividual IRI="#CC00089"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Technique"/>
+        <NamedIndividual IRI="#CC00090"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Technique"/>
+        <NamedIndividual IRI="#CC00091"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Technique"/>
+        <NamedIndividual IRI="#CC00092"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Technique"/>
+        <NamedIndividual IRI="#CC00093"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Technique"/>
+        <NamedIndividual IRI="#CC00094"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Technique"/>
+        <NamedIndividual IRI="#CC00095"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Technique"/>
+        <NamedIndividual IRI="#CC00096"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Technique"/>
+        <NamedIndividual IRI="#CC00097"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Technique"/>
+        <NamedIndividual IRI="#CC00098"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Technique"/>
+        <NamedIndividual IRI="#CC00099"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Technique"/>
+        <NamedIndividual IRI="#CC00100"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Technique"/>
+        <NamedIndividual IRI="#CC00101"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SkirtType"/>
+        <NamedIndividual IRI="#CC00102"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Grain"/>
+        <NamedIndividual IRI="#CC00103"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/DressType"/>
+        <NamedIndividual IRI="#CC00104"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/WorkType"/>
+        <NamedIndividual IRI="#CC00106"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SkirtType"/>
+        <NamedIndividual IRI="#CC00107"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/DressType"/>
+        <NamedIndividual IRI="#CC00108"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/DressType"/>
+        <NamedIndividual IRI="#CC00109"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/DressType"/>
+        <NamedIndividual IRI="#CC00110"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/DressType"/>
+        <NamedIndividual IRI="#CC00111"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/DressType"/>
+        <NamedIndividual IRI="#CC00112"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/DressType"/>
+        <NamedIndividual IRI="#CC00113"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/DressType"/>
+        <NamedIndividual IRI="#CC00114"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/DressType"/>
+        <NamedIndividual IRI="#CC00115"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Technique"/>
+        <NamedIndividual IRI="#CC00116"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/DressType"/>
+        <NamedIndividual IRI="#CC00117"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/DressType"/>
+        <NamedIndividual IRI="#CC00118"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Neckline"/>
+        <NamedIndividual IRI="#CC00119"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/DressType"/>
+        <NamedIndividual IRI="#CC00120"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/DressType"/>
+        <NamedIndividual IRI="#CC00121"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/DressType"/>
+        <NamedIndividual IRI="#CC00122"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/DressType"/>
+        <NamedIndividual IRI="#CC00123"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/DressType"/>
+        <NamedIndividual IRI="#CC00124"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/DressType"/>
+        <NamedIndividual IRI="#CC00125"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/DressType"/>
+        <NamedIndividual IRI="#CC00126"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Technique"/>
+        <NamedIndividual IRI="#CC00127"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SleeveType"/>
+        <NamedIndividual IRI="#CC00128"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SkirtType"/>
+        <NamedIndividual IRI="#CC00129"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SleeveType"/>
+        <NamedIndividual IRI="#CC00130"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SleeveType"/>
+        <NamedIndividual IRI="#CC00131"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SleeveType"/>
+        <NamedIndividual IRI="#CC00132"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SleeveType"/>
+        <NamedIndividual IRI="#CC00134"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SleeveType"/>
+        <NamedIndividual IRI="#CC00135"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SleeveType"/>
+        <NamedIndividual IRI="#CC00136"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SleeveType"/>
+        <NamedIndividual IRI="#CC00137"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SleeveType"/>
+        <NamedIndividual IRI="#CC00138"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SleeveType"/>
+        <NamedIndividual IRI="#CC00139"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SleeveType"/>
+        <NamedIndividual IRI="#CC00140"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SleeveType"/>
+        <NamedIndividual IRI="#CC00141"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SleeveType"/>
+        <NamedIndividual IRI="#CC00142"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SleeveType"/>
+        <NamedIndividual IRI="#CC00143"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SleeveLength"/>
+        <NamedIndividual IRI="#CC00144"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SleeveLength"/>
+        <NamedIndividual IRI="#CC00145"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SleeveLength"/>
+        <NamedIndividual IRI="#CC00146"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SleeveLength"/>
+        <NamedIndividual IRI="#CC00147"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SleeveLength"/>
+        <NamedIndividual IRI="#CC00148"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SleeveLength"/>
+        <NamedIndividual IRI="#CC00149"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SleeveLength"/>
+        <NamedIndividual IRI="#CC00150"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Waistline"/>
+        <NamedIndividual IRI="#CC00151"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Waistline"/>
+        <NamedIndividual IRI="#CC00152"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Waistline"/>
+        <NamedIndividual IRI="#CC00153"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Waistline"/>
+        <NamedIndividual IRI="#CC00154"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Waistline"/>
+        <NamedIndividual IRI="#CC00155"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Waistline"/>
+        <NamedIndividual IRI="#CC00156"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Waistline"/>
+        <NamedIndividual IRI="#CC00157"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Waistline"/>
+        <NamedIndividual IRI="#CC00158"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Waistline"/>
+        <NamedIndividual IRI="#CC00159"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00160"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Waistline"/>
+        <NamedIndividual IRI="#CC00161"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Waistline"/>
+        <NamedIndividual IRI="#CC00162"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SkirtType"/>
+        <NamedIndividual IRI="#CC00163"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SkirtType"/>
+        <NamedIndividual IRI="#CC00164"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SkirtType"/>
+        <NamedIndividual IRI="#CC00165"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SkirtType"/>
+        <NamedIndividual IRI="#CC00166"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SkirtType"/>
+        <NamedIndividual IRI="#CC00167"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SkirtType"/>
+        <NamedIndividual IRI="#CC00168"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SkirtType"/>
+        <NamedIndividual IRI="#CC00169"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Technique"/>
+        <NamedIndividual IRI="#CC00170"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SkirtType"/>
+        <NamedIndividual IRI="#CC00171"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Technique"/>
+        <NamedIndividual IRI="#CC00173"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SkirtType"/>
+        <NamedIndividual IRI="#CC00174"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SkirtType"/>
+        <NamedIndividual IRI="#CC00175"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/CostumeComponents"/>
+        <NamedIndividual IRI="#CC00176"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SkirtType"/>
+        <NamedIndividual IRI="#CC00177"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SkirtType"/>
+        <NamedIndividual IRI="#CC00178"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SkirtType"/>
+        <NamedIndividual IRI="#CC00179"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SkirtType"/>
+        <NamedIndividual IRI="#CC00180"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SkirtType"/>
+        <NamedIndividual IRI="#CC00181"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SkirtType"/>
+        <NamedIndividual IRI="#CC00182"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SkirtType"/>
+        <NamedIndividual IRI="#CC00183"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/CostumeComponents"/>
+        <NamedIndividual IRI="#CC00184"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SkirtLength"/>
+        <NamedIndividual IRI="#CC00185"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SkirtLength"/>
+        <NamedIndividual IRI="#CC00186"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SkirtLength"/>
+        <NamedIndividual IRI="#CC00187"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SkirtLength"/>
+        <NamedIndividual IRI="#CC00188"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SkirtLength"/>
+        <NamedIndividual IRI="#CC00189"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/DressType"/>
+        <NamedIndividual IRI="#CC00190"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SkirtLength"/>
+        <NamedIndividual IRI="#CC00191"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SkirtLength"/>
+        <NamedIndividual IRI="#CC00192"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/DressType"/>
+        <NamedIndividual IRI="#CC00193"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SkirtLength"/>
+        <NamedIndividual IRI="#CC00194"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00195"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00196"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00197"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00198"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00199"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00200"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00201"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00202"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00203"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00204"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00205"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00206"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00207"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00208"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00209"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00210"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00211"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00212"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00213"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00214"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00215"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00216"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00217"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00218"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00219"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00220"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00221"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00222"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00223"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00224"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00225"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00226"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00227"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Waistline"/>
+        <NamedIndividual IRI="#CC00228"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00229"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00230"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00231"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00232"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00233"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00234"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00235"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00236"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00237"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00238"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00239"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00240"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00241"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00242"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00243"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00244"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00245"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00246"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00247"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00248"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00249"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00250"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SkirtType"/>
+        <NamedIndividual IRI="#CC00251"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/DressType"/>
+        <NamedIndividual IRI="#CC00252"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Technique"/>
+        <NamedIndividual IRI="#CC00254"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SkirtType"/>
+        <NamedIndividual IRI="#CC00255"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SleeveType"/>
+        <NamedIndividual IRI="#CC00256"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Technique"/>
+        <NamedIndividual IRI="#CC00257"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Collar"/>
+        <NamedIndividual IRI="#CC00258"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00259"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00260"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00261"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00262"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SleeveType"/>
+        <NamedIndividual IRI="#CC00263"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00264"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00265"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00266"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00267"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00268"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00269"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00270"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00271"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00272"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00273"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00274"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00275"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00276"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Pattern"/>
+        <NamedIndividual IRI="#CC00277"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00278"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00279"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00280"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00281"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00282"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00283"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00284"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00285"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00286"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/CostumeComponents"/>
+        <NamedIndividual IRI="#CC00287"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00288"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00289"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Color"/>
+        <NamedIndividual IRI="#CC00290"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00291"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00292"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00293"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00294"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00295"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00296"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00297"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00298"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00299"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Pattern"/>
+        <NamedIndividual IRI="#CC00300"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00301"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00302"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00303"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00304"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00305"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00306"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00307"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00308"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00309"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00310"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00311"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00312"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00313"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00314"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00315"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00316"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00317"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00318"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00319"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00321"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Material"/>
+        <NamedIndividual IRI="#CC00322"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/DressType"/>
+        <NamedIndividual IRI="#CC00323"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/DressType"/>
+        <NamedIndividual IRI="#CC00324"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Technique"/>
+        <NamedIndividual IRI="#CC00325"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Grain"/>
+        <NamedIndividual IRI="#CC00331"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Grain"/>
+        <NamedIndividual IRI="#CC00332"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Grain"/>
+        <NamedIndividual IRI="#CC00333"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/WorkType"/>
+        <NamedIndividual IRI="#CC00334"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/WorkType"/>
+        <NamedIndividual IRI="#CC00335"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/WorkType"/>
+        <NamedIndividual IRI="#CC00336"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/WorkType"/>
+        <NamedIndividual IRI="#CC00337"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/WorkType"/>
+        <NamedIndividual IRI="#CC00339"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/WorkType"/>
+        <NamedIndividual IRI="#CC00340"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/WorkType"/>
+        <NamedIndividual IRI="#CC00341"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/WorkType"/>
+        <NamedIndividual IRI="#CC00342"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/WorkType"/>
+        <NamedIndividual IRI="#CC00343"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/WorkType"/>
+        <NamedIndividual IRI="#CC00344"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/WorkType"/>
+        <NamedIndividual IRI="#CC00345"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/WorkType"/>
+        <NamedIndividual IRI="#CC00346"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ClosurePlacement"/>
+        <NamedIndividual IRI="#CC00348"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ClosurePlacement"/>
+        <NamedIndividual IRI="#CC00349"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ClosurePlacement"/>
+        <NamedIndividual IRI="#CC00350"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ClosurePlacement"/>
+        <NamedIndividual IRI="#CC00351"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ClosurePlacement"/>
+        <NamedIndividual IRI="#CC00352"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ClosurePlacement"/>
+        <NamedIndividual IRI="#CC00353"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ClosurePlacement"/>
+        <NamedIndividual IRI="#CC00354"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Gender"/>
+        <NamedIndividual IRI="#CC00364"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Gender"/>
+        <NamedIndividual IRI="#CC00365"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Gender"/>
+        <NamedIndividual IRI="#CC00366"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Function"/>
+        <NamedIndividual IRI="#CC00368"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Function"/>
+        <NamedIndividual IRI="#CC00369"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Function"/>
+        <NamedIndividual IRI="#CC00370"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Function"/>
+        <NamedIndividual IRI="#CC00371"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Function"/>
+        <NamedIndividual IRI="#CC00372"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Function"/>
+        <NamedIndividual IRI="#CC00373"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Function"/>
+        <NamedIndividual IRI="#CC00374"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Function"/>
+        <NamedIndividual IRI="#CC00375"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Function"/>
+        <NamedIndividual IRI="#CC00376"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Function"/>
+        <NamedIndividual IRI="#CC00377"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Function"/>
+        <NamedIndividual IRI="#CC00378"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Function"/>
+        <NamedIndividual IRI="#CC00379"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Function"/>
+        <NamedIndividual IRI="#CC00380"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/LifeStages"/>
+        <NamedIndividual IRI="#CC00382"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/LifeStages"/>
+        <NamedIndividual IRI="#CC00383"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/LifeStages"/>
+        <NamedIndividual IRI="#CC00384"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/LifeStages"/>
+        <NamedIndividual IRI="#CC00385"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/LifeStages"/>
+        <NamedIndividual IRI="#CC00386"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/LifeStages"/>
+        <NamedIndividual IRI="#CC00387"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SocioEconomicClass"/>
+        <NamedIndividual IRI="#CC00389"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SocioEconomicClass"/>
+        <NamedIndividual IRI="#CC00390"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SocioEconomicClass"/>
+        <NamedIndividual IRI="#CC00391"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/vra/Technique"/>
+        <NamedIndividual IRI="#CC00393"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/CostumeComponents"/>
+        <NamedIndividual IRI="#CC00394"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/CostumeComponents"/>
+        <NamedIndividual IRI="#CC00395"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/CostumeComponents"/>
+        <NamedIndividual IRI="#CC00396"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/CostumeComponents"/>
+        <NamedIndividual IRI="#CC00397"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/CostumeComponents"/>
+        <NamedIndividual IRI="#CC00398"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/CostumeComponents"/>
+        <NamedIndividual IRI="#CC00399"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/CostumeComponents"/>
+        <NamedIndividual IRI="#CC00400"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/SleeveType"/>
+        <NamedIndividual IRI="#CC00401"/>
     </ClassAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="/closure"/>
@@ -557,11 +3179,1884 @@
         <Literal xml:lang="en">Creative Work</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="schema:name"/>
-        <IRI>http://viaf.org/viaf/315998461</IRI>
-        <Literal>
-            Arden Kirkland
-            </Literal>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00001</IRI>
+        <Literal>buckle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00002</IRI>
+        <Literal>buttons</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00003</IRI>
+        <Literal>frogs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00004</IRI>
+        <Literal>hooks and eyes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00005</IRI>
+        <Literal>lacing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00006</IRI>
+        <Literal>metal eyelets</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00007</IRI>
+        <Literal>wrap dress</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00008</IRI>
+        <Literal>snaps</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00009</IRI>
+        <Literal>thread eyelets</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00010</IRI>
+        <Literal>ties</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00011</IRI>
+        <Literal>toggles</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00012</IRI>
+        <Literal>velcro</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00013</IRI>
+        <Literal>zipper</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00014</IRI>
+        <Literal>boat neck</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00015</IRI>
+        <Literal>crew</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00016</IRI>
+        <Literal>halter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00017</IRI>
+        <Literal>henley</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00018</IRI>
+        <Literal>inset</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00019</IRI>
+        <Literal>jewel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00020</IRI>
+        <Literal>keyhole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00021</IRI>
+        <Literal>off the shoulder</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00022</IRI>
+        <Literal>round gown</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00023</IRI>
+        <Literal>scoop neck</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00024</IRI>
+        <Literal>square neckline</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00025</IRI>
+        <Literal>strapless</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00026</IRI>
+        <Literal>sweetheart</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00027</IRI>
+        <Literal>v-neck</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00028</IRI>
+        <Literal>ascot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00029</IRI>
+        <Literal>band (collar)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00030</IRI>
+        <Literal>bertha</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00031</IRI>
+        <Literal>bow</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00032</IRI>
+        <Literal>Chelsea collar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00033</IRI>
+        <Literal>convertible collar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00034</IRI>
+        <Literal>cowl neck</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00035</IRI>
+        <Literal>funnel neck</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00036</IRI>
+        <Literal>jabot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00037</IRI>
+        <Literal>Mandarin collar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00038</IRI>
+        <Literal>Napoleon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00039</IRI>
+        <Literal>peaked lapel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00040</IRI>
+        <Literal>Peter Pan collar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00041</IRI>
+        <Literal>polo neck</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00042</IRI>
+        <Literal>portrait collar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00043</IRI>
+        <Literal>Puritan collar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00044</IRI>
+        <Literal>ruffled neck</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00045</IRI>
+        <Literal>sailor collar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00046</IRI>
+        <Literal>shawl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00047</IRI>
+        <Literal>turtleneck</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00048</IRI>
+        <Literal>wingtip collar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00049</IRI>
+        <Literal>beige</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00050</IRI>
+        <Literal>black</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00051</IRI>
+        <Literal>blue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00052</IRI>
+        <Literal>brown</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00053</IRI>
+        <Literal>burgundy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00054</IRI>
+        <Literal>coral</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00055</IRI>
+        <Literal>cream</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00056</IRI>
+        <Literal>fuchsia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00057</IRI>
+        <Literal>gold</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00058</IRI>
+        <Literal>gray</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00059</IRI>
+        <Literal>green</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00060</IRI>
+        <Literal>lavender</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00061</IRI>
+        <Literal>maroon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00062</IRI>
+        <Literal>multicolor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00063</IRI>
+        <Literal>navy blue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00064</IRI>
+        <Literal>orange</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00065</IRI>
+        <Literal>pink</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00066</IRI>
+        <Literal>purple</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00067</IRI>
+        <Literal>red</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00068</IRI>
+        <Literal>rust (color)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00069</IRI>
+        <Literal>tan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00070</IRI>
+        <Literal>teal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00071</IRI>
+        <Literal>turquoise</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00072</IRI>
+        <Literal>white</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00073</IRI>
+        <Literal>yellow</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00074</IRI>
+        <Literal>applique</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00075</IRI>
+        <Literal>beading</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00076</IRI>
+        <Literal>braiding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00077</IRI>
+        <Literal>burn-out</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00078</IRI>
+        <Literal>crocheting</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00079</IRI>
+        <Literal>drawloom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00080</IRI>
+        <Literal>embossing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00081</IRI>
+        <Literal>embroidery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00082</IRI>
+        <Literal>flocking</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00083</IRI>
+        <Literal>glazing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00084</IRI>
+        <Literal>hand sewing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00085</IRI>
+        <Literal>hand weaving</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00086</IRI>
+        <Literal>knitting</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00087</IRI>
+        <Literal>lace making</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00088</IRI>
+        <Literal>machine sewing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00089</IRI>
+        <Literal>mercerizing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00090</IRI>
+        <Literal>needle work</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00091</IRI>
+        <Literal>needlepoint</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00092</IRI>
+        <Literal>painting</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00093</IRI>
+        <Literal>piecing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00094</IRI>
+        <Literal>piping</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00095</IRI>
+        <Literal>pleating</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00096</IRI>
+        <Literal>polishing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00097</IRI>
+        <Literal>printing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00098</IRI>
+        <Literal>quilting</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00099</IRI>
+        <Literal>ruffling</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00100</IRI>
+        <Literal>smocking</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00101</IRI>
+        <Literal>weaving</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00102</IRI>
+        <Literal>a-line</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00103</IRI>
+        <Literal>bias-cut</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00104</IRI>
+        <Literal>bustle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00106</IRI>
+        <Literal>coat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00107</IRI>
+        <Literal>crinoline (petticoat)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00108</IRI>
+        <Literal>drop-waist</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00109</IRI>
+        <Literal>Empire dress</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00110</IRI>
+        <Literal>fit and flare</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00111</IRI>
+        <Literal>hourglass (silhouette)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00112</IRI>
+        <Literal>jumper</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00113</IRI>
+        <Literal>mantua</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00114</IRI>
+        <Literal>pinafore</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00115</IRI>
+        <Literal>Polonaise</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00116</IRI>
+        <Literal>princess seam</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00117</IRI>
+        <Literal>robe a l&apos;Anglaise</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00118</IRI>
+        <Literal>robe a la Francaise</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00119</IRI>
+        <Literal>round neckline</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00120</IRI>
+        <Literal>S-curve</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00121</IRI>
+        <Literal>sheath dress</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00122</IRI>
+        <Literal>shirtwaist dress</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00123</IRI>
+        <Literal>slip</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00124</IRI>
+        <Literal>trapeze dress</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00125</IRI>
+        <Literal>toga</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00126</IRI>
+        <Literal>tunic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00127</IRI>
+        <Literal>wrapping</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00128</IRI>
+        <Literal>batwing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00129</IRI>
+        <Literal>bell skirt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00130</IRI>
+        <Literal>bishop sleeve</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00131</IRI>
+        <Literal>dolman sleeve</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00132</IRI>
+        <Literal>Juliet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00134</IRI>
+        <Literal>lantern sleeve</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00135</IRI>
+        <Literal>leg-of-mutton sleeve</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00136</IRI>
+        <Literal>petal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00137</IRI>
+        <Literal>puff</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00138</IRI>
+        <Literal>raglan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00139</IRI>
+        <Literal>roll-up sleeves</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00140</IRI>
+        <Literal>sleeve panes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00141</IRI>
+        <Literal>straight</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00142</IRI>
+        <Literal>shoulder straps</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00143</IRI>
+        <Literal>tank top</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00144</IRI>
+        <Literal>cap sleeve</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00145</IRI>
+        <Literal>short sleeve</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00146</IRI>
+        <Literal>elbow length sleeve</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00147</IRI>
+        <Literal>three-quarter length sleeve</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00148</IRI>
+        <Literal>long sleeve</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00149</IRI>
+        <Literal>extra long sleeve</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00150</IRI>
+        <Literal>hanging sleeve</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00151</IRI>
+        <Literal>angled waistline</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00152</IRI>
+        <Literal>asymmetrical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00153</IRI>
+        <Literal>bare midriff</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00154</IRI>
+        <Literal>basque</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00155</IRI>
+        <Literal>bolero</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00156</IRI>
+        <Literal>curved</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00157</IRI>
+        <Literal>dropped</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00158</IRI>
+        <Literal>high</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00159</IRI>
+        <Literal>hip-level</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00160</IRI>
+        <Literal>natural fiber</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00161</IRI>
+        <Literal>no waistline</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00162</IRI>
+        <Literal>pointed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00163</IRI>
+        <Literal>accordion pleats</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00164</IRI>
+        <Literal>balloon skirt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00165</IRI>
+        <Literal>box-pleated</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00166</IRI>
+        <Literal>circle skirt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00167</IRI>
+        <Literal>dirndl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00168</IRI>
+        <Literal>flared</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00169</IRI>
+        <Literal>flounced</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00170</IRI>
+        <Literal>gathering</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00171</IRI>
+        <Literal>gored</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00173</IRI>
+        <Literal>layering</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00174</IRI>
+        <Literal>peg-top</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00175</IRI>
+        <Literal>pegged</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00176</IRI>
+        <Literal>peplum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00177</IRI>
+        <Literal>pleated skirt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00178</IRI>
+        <Literal>prairie skirt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00179</IRI>
+        <Literal>sarong</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00180</IRI>
+        <Literal>pencil skirt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00181</IRI>
+        <Literal>swagged</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00182</IRI>
+        <Literal>tiered</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00183</IRI>
+        <Literal>trumpet skirt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00184</IRI>
+        <Literal>yoke</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00185</IRI>
+        <Literal>above knee</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00186</IRI>
+        <Literal>ankle length</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00187</IRI>
+        <Literal>floor length</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00188</IRI>
+        <Literal>hip length</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00189</IRI>
+        <Literal>knee length</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00190</IRI>
+        <Literal>maxi dresses</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00191</IRI>
+        <Literal>mid calf length</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00192</IRI>
+        <Literal>mid-thigh length</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00193</IRI>
+        <Literal>midi dresses</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00194</IRI>
+        <Literal>train</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00195</IRI>
+        <Literal>acetate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00196</IRI>
+        <Literal>acrylic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00197</IRI>
+        <Literal>angora</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00198</IRI>
+        <Literal>basket weave</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00199</IRI>
+        <Literal>boning</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00200</IRI>
+        <Literal>brocade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00201</IRI>
+        <Literal>camel hair</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00202</IRI>
+        <Literal>cashmere</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00203</IRI>
+        <Literal>chiffon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00204</IRI>
+        <Literal>corduroy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00205</IRI>
+        <Literal>cotton</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00206</IRI>
+        <Literal>crepe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00207</IRI>
+        <Literal>crochet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00208</IRI>
+        <Literal>damask</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00209</IRI>
+        <Literal>dobby weave</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00210</IRI>
+        <Literal>double-weave</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00211</IRI>
+        <Literal>elastic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00212</IRI>
+        <Literal>felt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00213</IRI>
+        <Literal>fiber blend</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00214</IRI>
+        <Literal>georgette</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00215</IRI>
+        <Literal>glass</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00216</IRI>
+        <Literal>hemp</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00217</IRI>
+        <Literal>jacquard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00218</IRI>
+        <Literal>knit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00219</IRI>
+        <Literal>lace</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00220</IRI>
+        <Literal>leather</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00221</IRI>
+        <Literal>linen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00222</IRI>
+        <Literal>looped pile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00223</IRI>
+        <Literal>matelasse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00224</IRI>
+        <Literal>metal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00225</IRI>
+        <Literal>microfiber</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00226</IRI>
+        <Literal>mohair</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00227</IRI>
+        <Literal>moire</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00228</IRI>
+        <Literal>natural waistline</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00229</IRI>
+        <Literal>net</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00230</IRI>
+        <Literal>nylon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00231</IRI>
+        <Literal>plain weave</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00232</IRI>
+        <Literal>plastic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00233</IRI>
+        <Literal>polyester</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00234</IRI>
+        <Literal>ramie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00235</IRI>
+        <Literal>rayon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00236</IRI>
+        <Literal>rib knit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00237</IRI>
+        <Literal>rib weave</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00238</IRI>
+        <Literal>ribbon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00239</IRI>
+        <Literal>satin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00240</IRI>
+        <Literal>sheared pile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00241</IRI>
+        <Literal>shell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00242</IRI>
+        <Literal>silk</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00243</IRI>
+        <Literal>spandex</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00244</IRI>
+        <Literal>synthetic fiber</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00245</IRI>
+        <Literal>taffeta</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00246</IRI>
+        <Literal>twill weave</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00247</IRI>
+        <Literal>velvet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00248</IRI>
+        <Literal>wax</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00249</IRI>
+        <Literal>wood</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00250</IRI>
+        <Literal>wool</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00251</IRI>
+        <Literal>bustle skirt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00252</IRI>
+        <Literal>chemise dress</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00254</IRI>
+        <Literal>embroidering</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00255</IRI>
+        <Literal>handkerchief hem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00256</IRI>
+        <Literal>kimono sleeve</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00257</IRI>
+        <Literal>needlepoint (needleworking)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00258</IRI>
+        <Literal>shawl collar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00259</IRI>
+        <Literal>adhesive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00260</IRI>
+        <Literal>batiste</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00261</IRI>
+        <Literal>batting</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00262</IRI>
+        <Literal>beads</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00263</IRI>
+        <Literal>cowl sleeve</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00264</IRI>
+        <Literal>braid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00265</IRI>
+        <Literal>brass</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00266</IRI>
+        <Literal>buckram</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00267</IRI>
+        <Literal>cardboard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00268</IRI>
+        <Literal>chenille</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00269</IRI>
+        <Literal>China silk</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00270</IRI>
+        <Literal>chintz</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00271</IRI>
+        <Literal>cloth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00272</IRI>
+        <Literal>cord</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00273</IRI>
+        <Literal>Dacron</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00274</IRI>
+        <Literal>dupioni</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00275</IRI>
+        <Literal>faille</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00276</IRI>
+        <Literal>feathers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00277</IRI>
+        <Literal>floral pattern</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00278</IRI>
+        <Literal>flowers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00279</IRI>
+        <Literal>fur</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00280</IRI>
+        <Literal>gabardine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00281</IRI>
+        <Literal>gauze</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00282</IRI>
+        <Literal>horsehair</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00283</IRI>
+        <Literal>jersey</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00284</IRI>
+        <Literal>jet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00285</IRI>
+        <Literal>lawn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00286</IRI>
+        <Literal>leaves</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00287</IRI>
+        <Literal>lining</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00288</IRI>
+        <Literal>merino</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00289</IRI>
+        <Literal>mesh</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00290</IRI>
+        <Literal>metallic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00291</IRI>
+        <Literal>mink fur</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00292</IRI>
+        <Literal>mother of pearl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00293</IRI>
+        <Literal>muslin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00294</IRI>
+        <Literal>organza</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00295</IRI>
+        <Literal>paint</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00296</IRI>
+        <Literal>paper</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00297</IRI>
+        <Literal>pearl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00298</IRI>
+        <Literal>piña cloth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00299</IRI>
+        <Literal>pineapple fiber</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00300</IRI>
+        <Literal>plaid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00301</IRI>
+        <Literal>pongee</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00302</IRI>
+        <Literal>porcelain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00303</IRI>
+        <Literal>raffia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00304</IRI>
+        <Literal>rhinestones</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00305</IRI>
+        <Literal>rope</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00306</IRI>
+        <Literal>rubber</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00307</IRI>
+        <Literal>sequins</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00308</IRI>
+        <Literal>skin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00309</IRI>
+        <Literal>starch</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00310</IRI>
+        <Literal>steel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00311</IRI>
+        <Literal>straw</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00312</IRI>
+        <Literal>tassel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00313</IRI>
+        <Literal>thread</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00314</IRI>
+        <Literal>trimming</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00315</IRI>
+        <Literal>tulle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00316</IRI>
+        <Literal>twill</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00317</IRI>
+        <Literal>twill tape</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00318</IRI>
+        <Literal>vinyl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00319</IRI>
+        <Literal>voile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00321</IRI>
+        <Literal>webbing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00322</IRI>
+        <Literal>wire</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00323</IRI>
+        <Literal>coatdress</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00324</IRI>
+        <Literal>crinoline (silhouette)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00325</IRI>
+        <Literal>tucks</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00331</IRI>
+        <Literal>straight grain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00332</IRI>
+        <Literal>lengthwise grain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00333</IRI>
+        <Literal>crosswise grain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00334</IRI>
+        <Literal>dolman</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00335</IRI>
+        <Literal>dress</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00336</IRI>
+        <Literal>bodice</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00337</IRI>
+        <Literal>blouse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00339</IRI>
+        <Literal>jacket</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00340</IRI>
+        <Literal>shirt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00341</IRI>
+        <Literal>skirt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00342</IRI>
+        <Literal>suit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00343</IRI>
+        <Literal>sweater</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00344</IRI>
+        <Literal>pants</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00345</IRI>
+        <Literal>underwear</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00346</IRI>
+        <Literal>vest</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00348</IRI>
+        <Literal>center back closure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00349</IRI>
+        <Literal>center front closure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00350</IRI>
+        <Literal>double-breasted closure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00351</IRI>
+        <Literal>neck closure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00352</IRI>
+        <Literal>off-center back closure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00353</IRI>
+        <Literal>off-center front closure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00354</IRI>
+        <Literal>side closure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00364</IRI>
+        <Literal>womenswear</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00365</IRI>
+        <Literal>menswear</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00366</IRI>
+        <Literal>unisex clothing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00368</IRI>
+        <Literal>day wear</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00369</IRI>
+        <Literal>dinner dress</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00370</IRI>
+        <Literal>evening dress</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00371</IRI>
+        <Literal>graduation dress</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00372</IRI>
+        <Literal>military uniform</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00373</IRI>
+        <Literal>morning dress</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00374</IRI>
+        <Literal>mourning dress</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00375</IRI>
+        <Literal>party dress</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00376</IRI>
+        <Literal>school uniform</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00377</IRI>
+        <Literal>sports uniform</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00378</IRI>
+        <Literal>uniform</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00379</IRI>
+        <Literal>wedding dress</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00380</IRI>
+        <Literal>work clothes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00382</IRI>
+        <Literal>childhood</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00383</IRI>
+        <Literal>infancy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00384</IRI>
+        <Literal>adolescence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00385</IRI>
+        <Literal>adulthood</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00386</IRI>
+        <Literal>middle age</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00387</IRI>
+        <Literal>old age</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00389</IRI>
+        <Literal>working class</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00390</IRI>
+        <Literal>middle class</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00391</IRI>
+        <Literal>upper class</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00393</IRI>
+        <Literal>dart</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00394</IRI>
+        <Literal>cuff</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00395</IRI>
+        <Literal>epaulette</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00396</IRI>
+        <Literal>facing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00397</IRI>
+        <Literal>pocket</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00398</IRI>
+        <Literal>shoulder pad</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00399</IRI>
+        <Literal>waistband</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00400</IRI>
+        <Literal>wristband</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CC00401</IRI>
+        <Literal>two piece tailored sleeve</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>

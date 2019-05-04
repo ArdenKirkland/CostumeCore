@@ -1,4 +1,4 @@
-@prefix : <https://w3id.org/costumeCore/ontology#> .
+@prefix : <https://w3id.org/costumeCore/ontology> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -10,7 +10,6 @@
 <https://w3id.org/costumeCore/ontology> rdf:type owl:Ontology ;
                                          owl:versionIRI <https://w3id.org/costumeCore/ontology/0.3.4> ;
                                          <http://purl.org/dc/terms/contributor> "Arden Kirkland" ;
-                                         schema:creator <http://viaf.org/viaf/315998461> ;
                                          rdfs:label "Costume Core" .
 
 #################################################################
@@ -426,12 +425,2260 @@ schema:Person rdf:type owl:Class .
 #    Individuals
 #################################################################
 
-###  http://viaf.org/viaf/315998461
-<http://viaf.org/viaf/315998461> rdf:type owl:NamedIndividual ,
-                                          schema:Person ;
-                                 schema:name """
-            Arden Kirkland
-            """ .
+###  https://w3id.org/costumeCore/ontology#CC00001
+:CC00001 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Closure> ;
+         rdfs:label "buckle"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00002
+:CC00002 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Closure> ;
+         rdfs:label "buttons"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00003
+:CC00003 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Closure> ;
+         rdfs:label "frogs"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00004
+:CC00004 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Closure> ;
+         rdfs:label "hooks and eyes"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00005
+:CC00005 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Closure> ;
+         rdfs:label "lacing"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00006
+:CC00006 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Closure> ;
+         rdfs:label "metal eyelets"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00007
+:CC00007 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/DressType> ;
+         rdfs:label "wrap dress"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00008
+:CC00008 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Closure> ;
+         rdfs:label "snaps"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00009
+:CC00009 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Closure> ;
+         rdfs:label "thread eyelets"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00010
+:CC00010 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Closure> ;
+         rdfs:label "ties"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00011
+:CC00011 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Closure> ;
+         rdfs:label "toggles"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00012
+:CC00012 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Closure> ;
+         rdfs:label "velcro"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00013
+:CC00013 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Closure> ;
+         rdfs:label "zipper"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00014
+:CC00014 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Neckline> ;
+         rdfs:label "boat neck"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00015
+:CC00015 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Neckline> ;
+         rdfs:label "crew"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00016
+:CC00016 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Neckline> ;
+         rdfs:label "halter"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00017
+:CC00017 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Neckline> ;
+         rdfs:label "henley"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00018
+:CC00018 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Neckline> ;
+         rdfs:label "inset"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00019
+:CC00019 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Neckline> ;
+         rdfs:label "jewel"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00020
+:CC00020 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Neckline> ;
+         rdfs:label "keyhole"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00021
+:CC00021 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Neckline> ;
+         rdfs:label "off the shoulder"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00022
+:CC00022 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/DressType> ;
+         rdfs:label "round gown"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00023
+:CC00023 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Neckline> ;
+         rdfs:label "scoop neck"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00024
+:CC00024 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Neckline> ;
+         rdfs:label "square neckline"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00025
+:CC00025 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Neckline> ;
+         rdfs:label "strapless"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00026
+:CC00026 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Neckline> ;
+         rdfs:label "sweetheart"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00027
+:CC00027 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Neckline> ;
+         rdfs:label "v-neck"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00028
+:CC00028 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Collar> ;
+         rdfs:label "ascot"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00029
+:CC00029 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Collar> ;
+         rdfs:label "band (collar)"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00030
+:CC00030 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Collar> ;
+         rdfs:label "bertha"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00031
+:CC00031 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Collar> ;
+         rdfs:label "bow"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00032
+:CC00032 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Collar> ;
+         rdfs:label "Chelsea collar"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00033
+:CC00033 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Collar> ;
+         rdfs:label "convertible collar"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00034
+:CC00034 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Collar> ;
+         rdfs:label "cowl neck"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00035
+:CC00035 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Collar> ;
+         rdfs:label "funnel neck"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00036
+:CC00036 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Collar> ;
+         rdfs:label "jabot"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00037
+:CC00037 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Collar> ;
+         rdfs:label "Mandarin collar"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00038
+:CC00038 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Collar> ;
+         rdfs:label "Napoleon"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00039
+:CC00039 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Collar> ;
+         rdfs:label "peaked lapel"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00040
+:CC00040 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Collar> ;
+         rdfs:label "Peter Pan collar"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00041
+:CC00041 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Collar> ;
+         rdfs:label "polo neck"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00042
+:CC00042 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Collar> ;
+         rdfs:label "portrait collar"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00043
+:CC00043 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Collar> ;
+         rdfs:label "Puritan collar"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00044
+:CC00044 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Collar> ;
+         rdfs:label "ruffled neck"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00045
+:CC00045 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Collar> ;
+         rdfs:label "sailor collar"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00046
+:CC00046 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/WorkType> ;
+         rdfs:label "shawl"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00047
+:CC00047 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Collar> ;
+         rdfs:label "turtleneck"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00048
+:CC00048 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Collar> ;
+         rdfs:label "wingtip collar"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00049
+:CC00049 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Color> ;
+         rdfs:label "beige"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00050
+:CC00050 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Color> ;
+         rdfs:label "black"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00051
+:CC00051 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Color> ;
+         rdfs:label "blue"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00052
+:CC00052 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Color> ;
+         rdfs:label "brown"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00053
+:CC00053 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Color> ;
+         rdfs:label "burgundy"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00054
+:CC00054 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Color> ;
+         rdfs:label "coral"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00055
+:CC00055 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Color> ;
+         rdfs:label "cream"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00056
+:CC00056 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Color> ;
+         rdfs:label "fuchsia"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00057
+:CC00057 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Color> ;
+         rdfs:label "gold"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00058
+:CC00058 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Color> ;
+         rdfs:label "gray"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00059
+:CC00059 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Color> ;
+         rdfs:label "green"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00060
+:CC00060 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Color> ;
+         rdfs:label "lavender"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00061
+:CC00061 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Color> ;
+         rdfs:label "maroon"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00062
+:CC00062 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Color> ;
+         rdfs:label "multicolor"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00063
+:CC00063 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Color> ;
+         rdfs:label "navy blue"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00064
+:CC00064 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Color> ;
+         rdfs:label "orange"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00065
+:CC00065 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Color> ;
+         rdfs:label "pink"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00066
+:CC00066 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Color> ;
+         rdfs:label "purple"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00067
+:CC00067 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Color> ;
+         rdfs:label "red"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00068
+:CC00068 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Color> ;
+         rdfs:label "rust (color)"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00069
+:CC00069 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Color> ;
+         rdfs:label "tan"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00070
+:CC00070 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Color> ;
+         rdfs:label "teal"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00071
+:CC00071 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Color> ;
+         rdfs:label "turquoise"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00072
+:CC00072 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Color> ;
+         rdfs:label "white"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00073
+:CC00073 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Color> ;
+         rdfs:label "yellow"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00074
+:CC00074 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Technique> ;
+         rdfs:label "applique"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00075
+:CC00075 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Technique> ;
+         rdfs:label "beading"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00076
+:CC00076 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Technique> ;
+         rdfs:label "braiding"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00077
+:CC00077 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Technique> ;
+         rdfs:label "burn-out"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00078
+:CC00078 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Technique> ;
+         rdfs:label "crocheting"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00079
+:CC00079 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Technique> ;
+         rdfs:label "drawloom"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00080
+:CC00080 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Technique> ;
+         rdfs:label "embossing"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00081
+:CC00081 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Technique> ;
+         rdfs:label "embroidery"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00082
+:CC00082 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Technique> ;
+         rdfs:label "flocking"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00083
+:CC00083 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Technique> ;
+         rdfs:label "glazing"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00084
+:CC00084 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Technique> ;
+         rdfs:label "hand sewing"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00085
+:CC00085 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Technique> ;
+         rdfs:label "hand weaving"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00086
+:CC00086 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Technique> ;
+         rdfs:label "knitting"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00087
+:CC00087 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Technique> ;
+         rdfs:label "lace making"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00088
+:CC00088 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Technique> ;
+         rdfs:label "machine sewing"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00089
+:CC00089 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Technique> ;
+         rdfs:label "mercerizing"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00090
+:CC00090 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Technique> ;
+         rdfs:label "needle work"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00091
+:CC00091 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Technique> ;
+         rdfs:label "needlepoint"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00092
+:CC00092 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Technique> ;
+         rdfs:label "painting"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00093
+:CC00093 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Technique> ;
+         rdfs:label "piecing"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00094
+:CC00094 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Technique> ;
+         rdfs:label "piping"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00095
+:CC00095 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Technique> ;
+         rdfs:label "pleating"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00096
+:CC00096 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Technique> ;
+         rdfs:label "polishing"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00097
+:CC00097 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Technique> ;
+         rdfs:label "printing"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00098
+:CC00098 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Technique> ;
+         rdfs:label "quilting"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00099
+:CC00099 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Technique> ;
+         rdfs:label "ruffling"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00100
+:CC00100 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Technique> ;
+         rdfs:label "smocking"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00101
+:CC00101 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Technique> ;
+         rdfs:label "weaving"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00102
+:CC00102 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SkirtType> ;
+         rdfs:label "a-line"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00103
+:CC00103 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Grain> ;
+         rdfs:label "bias-cut"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00104
+:CC00104 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/DressType> ;
+         rdfs:label "bustle"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00106
+:CC00106 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/WorkType> ;
+         rdfs:label "coat"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00107
+:CC00107 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SkirtType> ;
+         rdfs:label "crinoline (petticoat)"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00108
+:CC00108 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/DressType> ;
+         rdfs:label "drop-waist"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00109
+:CC00109 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/DressType> ;
+         rdfs:label "Empire dress"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00110
+:CC00110 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/DressType> ;
+         rdfs:label "fit and flare"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00111
+:CC00111 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/DressType> ;
+         rdfs:label "hourglass (silhouette)"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00112
+:CC00112 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/DressType> ;
+         rdfs:label "jumper"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00113
+:CC00113 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/DressType> ;
+         rdfs:label "mantua"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00114
+:CC00114 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/DressType> ;
+         rdfs:label "pinafore"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00115
+:CC00115 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/DressType> ;
+         rdfs:label "Polonaise"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00116
+:CC00116 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Technique> ;
+         rdfs:label "princess seam"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00117
+:CC00117 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/DressType> ;
+         rdfs:label "robe a l'Anglaise"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00118
+:CC00118 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/DressType> ;
+         rdfs:label "robe a la Francaise"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00119
+:CC00119 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Neckline> ;
+         rdfs:label "round neckline"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00120
+:CC00120 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/DressType> ;
+         rdfs:label "S-curve"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00121
+:CC00121 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/DressType> ;
+         rdfs:label "sheath dress"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00122
+:CC00122 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/DressType> ;
+         rdfs:label "shirtwaist dress"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00123
+:CC00123 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/DressType> ;
+         rdfs:label "slip"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00124
+:CC00124 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/DressType> ;
+         rdfs:label "trapeze dress"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00125
+:CC00125 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/DressType> ;
+         rdfs:label "toga"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00126
+:CC00126 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/DressType> ;
+         rdfs:label "tunic"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00127
+:CC00127 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Technique> ;
+         rdfs:label "wrapping"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00128
+:CC00128 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SleeveType> ;
+         rdfs:label "batwing"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00129
+:CC00129 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SkirtType> ;
+         rdfs:label "bell skirt"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00130
+:CC00130 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SleeveType> ;
+         rdfs:label "bishop sleeve"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00131
+:CC00131 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SleeveType> ;
+         rdfs:label "dolman sleeve"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00132
+:CC00132 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SleeveType> ;
+         rdfs:label "Juliet"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00134
+:CC00134 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SleeveType> ;
+         rdfs:label "lantern sleeve"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00135
+:CC00135 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SleeveType> ;
+         rdfs:label "leg-of-mutton sleeve"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00136
+:CC00136 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SleeveType> ;
+         rdfs:label "petal"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00137
+:CC00137 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SleeveType> ;
+         rdfs:label "puff"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00138
+:CC00138 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SleeveType> ;
+         rdfs:label "raglan"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00139
+:CC00139 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SleeveType> ;
+         rdfs:label "roll-up sleeves"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00140
+:CC00140 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SleeveType> ;
+         rdfs:label "sleeve panes"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00141
+:CC00141 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SleeveType> ;
+         rdfs:label "straight"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00142
+:CC00142 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SleeveType> ;
+         rdfs:label "shoulder straps"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00143
+:CC00143 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SleeveType> ;
+         rdfs:label "tank top"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00144
+:CC00144 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SleeveLength> ;
+         rdfs:label "cap sleeve"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00145
+:CC00145 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SleeveLength> ;
+         rdfs:label "short sleeve"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00146
+:CC00146 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SleeveLength> ;
+         rdfs:label "elbow length sleeve"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00147
+:CC00147 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SleeveLength> ;
+         rdfs:label "three-quarter length sleeve"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00148
+:CC00148 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SleeveLength> ;
+         rdfs:label "long sleeve"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00149
+:CC00149 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SleeveLength> ;
+         rdfs:label "extra long sleeve"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00150
+:CC00150 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SleeveLength> ;
+         rdfs:label "hanging sleeve"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00151
+:CC00151 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Waistline> ;
+         rdfs:label "angled waistline"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00152
+:CC00152 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Waistline> ;
+         rdfs:label "asymmetrical"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00153
+:CC00153 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Waistline> ;
+         rdfs:label "bare midriff"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00154
+:CC00154 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Waistline> ;
+         rdfs:label "basque"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00155
+:CC00155 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Waistline> ;
+         rdfs:label "bolero"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00156
+:CC00156 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Waistline> ;
+         rdfs:label "curved"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00157
+:CC00157 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Waistline> ;
+         rdfs:label "dropped"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00158
+:CC00158 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Waistline> ;
+         rdfs:label "high"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00159
+:CC00159 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Waistline> ;
+         rdfs:label "hip-level"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00160
+:CC00160 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "natural fiber"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00161
+:CC00161 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Waistline> ;
+         rdfs:label "no waistline"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00162
+:CC00162 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Waistline> ;
+         rdfs:label "pointed"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00163
+:CC00163 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SkirtType> ;
+         rdfs:label "accordion pleats"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00164
+:CC00164 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SkirtType> ;
+         rdfs:label "balloon skirt"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00165
+:CC00165 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SkirtType> ;
+         rdfs:label "box-pleated"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00166
+:CC00166 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SkirtType> ;
+         rdfs:label "circle skirt"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00167
+:CC00167 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SkirtType> ;
+         rdfs:label "dirndl"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00168
+:CC00168 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SkirtType> ;
+         rdfs:label "flared"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00169
+:CC00169 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SkirtType> ;
+         rdfs:label "flounced"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00170
+:CC00170 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Technique> ;
+         rdfs:label "gathering"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00171
+:CC00171 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SkirtType> ;
+         rdfs:label "gored"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00173
+:CC00173 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Technique> ;
+         rdfs:label "layering"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00174
+:CC00174 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SkirtType> ;
+         rdfs:label "peg-top"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00175
+:CC00175 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SkirtType> ;
+         rdfs:label "pegged"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00176
+:CC00176 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/CostumeComponents> ;
+         rdfs:label "peplum"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00177
+:CC00177 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SkirtType> ;
+         rdfs:label "pleated skirt"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00178
+:CC00178 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SkirtType> ;
+         rdfs:label "prairie skirt"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00179
+:CC00179 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SkirtType> ;
+         rdfs:label "sarong"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00180
+:CC00180 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SkirtType> ;
+         rdfs:label "pencil skirt"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00181
+:CC00181 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SkirtType> ;
+         rdfs:label "swagged"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00182
+:CC00182 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SkirtType> ;
+         rdfs:label "tiered"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00183
+:CC00183 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SkirtType> ;
+         rdfs:label "trumpet skirt"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00184
+:CC00184 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/CostumeComponents> ;
+         rdfs:label "yoke"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00185
+:CC00185 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SkirtLength> ;
+         rdfs:label "above knee"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00186
+:CC00186 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SkirtLength> ;
+         rdfs:label "ankle length"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00187
+:CC00187 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SkirtLength> ;
+         rdfs:label "floor length"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00188
+:CC00188 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SkirtLength> ;
+         rdfs:label "hip length"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00189
+:CC00189 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SkirtLength> ;
+         rdfs:label "knee length"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00190
+:CC00190 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/DressType> ;
+         rdfs:label "maxi dresses"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00191
+:CC00191 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SkirtLength> ;
+         rdfs:label "mid calf length"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00192
+:CC00192 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SkirtLength> ;
+         rdfs:label "mid-thigh length"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00193
+:CC00193 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/DressType> ;
+         rdfs:label "midi dresses"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00194
+:CC00194 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SkirtLength> ;
+         rdfs:label "train"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00195
+:CC00195 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "acetate"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00196
+:CC00196 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "acrylic"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00197
+:CC00197 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "angora"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00198
+:CC00198 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "basket weave"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00199
+:CC00199 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "boning"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00200
+:CC00200 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "brocade"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00201
+:CC00201 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "camel hair"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00202
+:CC00202 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "cashmere"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00203
+:CC00203 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "chiffon"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00204
+:CC00204 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "corduroy"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00205
+:CC00205 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "cotton"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00206
+:CC00206 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "crepe"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00207
+:CC00207 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "crochet"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00208
+:CC00208 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "damask"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00209
+:CC00209 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "dobby weave"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00210
+:CC00210 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "double-weave"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00211
+:CC00211 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "elastic"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00212
+:CC00212 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "felt"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00213
+:CC00213 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "fiber blend"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00214
+:CC00214 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "georgette"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00215
+:CC00215 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "glass"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00216
+:CC00216 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "hemp"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00217
+:CC00217 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "jacquard"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00218
+:CC00218 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "knit"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00219
+:CC00219 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "lace"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00220
+:CC00220 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "leather"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00221
+:CC00221 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "linen"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00222
+:CC00222 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "looped pile"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00223
+:CC00223 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "matelasse"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00224
+:CC00224 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "metal"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00225
+:CC00225 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "microfiber"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00226
+:CC00226 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "mohair"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00227
+:CC00227 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "moire"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00228
+:CC00228 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Waistline> ;
+         rdfs:label "natural waistline"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00229
+:CC00229 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "net"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00230
+:CC00230 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "nylon"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00231
+:CC00231 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "plain weave"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00232
+:CC00232 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "plastic"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00233
+:CC00233 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "polyester"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00234
+:CC00234 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "ramie"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00235
+:CC00235 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "rayon"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00236
+:CC00236 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "rib knit"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00237
+:CC00237 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "rib weave"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00238
+:CC00238 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "ribbon"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00239
+:CC00239 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "satin"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00240
+:CC00240 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "sheared pile"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00241
+:CC00241 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "shell"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00242
+:CC00242 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "silk"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00243
+:CC00243 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "spandex"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00244
+:CC00244 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "synthetic fiber"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00245
+:CC00245 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "taffeta"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00246
+:CC00246 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "twill weave"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00247
+:CC00247 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "velvet"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00248
+:CC00248 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "wax"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00249
+:CC00249 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "wood"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00250
+:CC00250 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "wool"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00251
+:CC00251 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SkirtType> ;
+         rdfs:label "bustle skirt"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00252
+:CC00252 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/DressType> ;
+         rdfs:label "chemise dress"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00254
+:CC00254 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Technique> ;
+         rdfs:label "embroidering"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00255
+:CC00255 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SkirtType> ;
+         rdfs:label "handkerchief hem"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00256
+:CC00256 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SleeveType> ;
+         rdfs:label "kimono sleeve"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00257
+:CC00257 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Technique> ;
+         rdfs:label "needlepoint (needleworking)"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00258
+:CC00258 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Collar> ;
+         rdfs:label "shawl collar"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00259
+:CC00259 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "adhesive"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00260
+:CC00260 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "batiste"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00261
+:CC00261 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "batting"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00262
+:CC00262 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "beads"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00263
+:CC00263 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SleeveType> ;
+         rdfs:label "cowl sleeve"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00264
+:CC00264 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "braid"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00265
+:CC00265 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "brass"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00266
+:CC00266 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "buckram"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00267
+:CC00267 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "cardboard"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00268
+:CC00268 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "chenille"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00269
+:CC00269 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "China silk"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00270
+:CC00270 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "chintz"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00271
+:CC00271 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "cloth"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00272
+:CC00272 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "cord"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00273
+:CC00273 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "Dacron"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00274
+:CC00274 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "dupioni"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00275
+:CC00275 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "faille"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00276
+:CC00276 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "feathers"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00277
+:CC00277 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Pattern> ;
+         rdfs:label "floral pattern"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00278
+:CC00278 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "flowers"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00279
+:CC00279 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "fur"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00280
+:CC00280 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "gabardine"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00281
+:CC00281 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "gauze"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00282
+:CC00282 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "horsehair"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00283
+:CC00283 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "jersey"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00284
+:CC00284 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "jet"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00285
+:CC00285 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "lawn"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00286
+:CC00286 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "leaves"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00287
+:CC00287 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/CostumeComponents> ;
+         rdfs:label "lining"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00288
+:CC00288 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "merino"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00289
+:CC00289 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "mesh"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00290
+:CC00290 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Color> ;
+         rdfs:label "metallic"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00291
+:CC00291 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "mink fur"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00292
+:CC00292 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "mother of pearl"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00293
+:CC00293 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "muslin"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00294
+:CC00294 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "organza"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00295
+:CC00295 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "paint"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00296
+:CC00296 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "paper"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00297
+:CC00297 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "pearl"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00298
+:CC00298 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "piña cloth"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00299
+:CC00299 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "pineapple fiber"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00300
+:CC00300 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Pattern> ;
+         rdfs:label "plaid"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00301
+:CC00301 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "pongee"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00302
+:CC00302 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "porcelain"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00303
+:CC00303 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "raffia"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00304
+:CC00304 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "rhinestones"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00305
+:CC00305 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "rope"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00306
+:CC00306 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "rubber"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00307
+:CC00307 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "sequins"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00308
+:CC00308 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "skin"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00309
+:CC00309 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "starch"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00310
+:CC00310 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "steel"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00311
+:CC00311 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "straw"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00312
+:CC00312 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "tassel"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00313
+:CC00313 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "thread"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00314
+:CC00314 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "trimming"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00315
+:CC00315 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "tulle"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00316
+:CC00316 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "twill"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00317
+:CC00317 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "twill tape"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00318
+:CC00318 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "vinyl"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00319
+:CC00319 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "voile"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00321
+:CC00321 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "webbing"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00322
+:CC00322 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Material> ;
+         rdfs:label "wire"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00323
+:CC00323 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/DressType> ;
+         rdfs:label "coatdress"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00324
+:CC00324 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/DressType> ;
+         rdfs:label "crinoline (silhouette)"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00325
+:CC00325 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Technique> ;
+         rdfs:label "tucks"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00331
+:CC00331 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Grain> ;
+         rdfs:label "straight grain"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00332
+:CC00332 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Grain> ;
+         rdfs:label "lengthwise grain"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00333
+:CC00333 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Grain> ;
+         rdfs:label "crosswise grain"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00334
+:CC00334 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/WorkType> ;
+         rdfs:label "dolman"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00335
+:CC00335 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/WorkType> ;
+         rdfs:label "dress"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00336
+:CC00336 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/WorkType> ;
+         rdfs:label "bodice"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00337
+:CC00337 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/WorkType> ;
+         rdfs:label "blouse"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00339
+:CC00339 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/WorkType> ;
+         rdfs:label "jacket"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00340
+:CC00340 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/WorkType> ;
+         rdfs:label "shirt"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00341
+:CC00341 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/WorkType> ;
+         rdfs:label "skirt"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00342
+:CC00342 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/WorkType> ;
+         rdfs:label "suit"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00343
+:CC00343 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/WorkType> ;
+         rdfs:label "sweater"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00344
+:CC00344 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/WorkType> ;
+         rdfs:label "pants"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00345
+:CC00345 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/WorkType> ;
+         rdfs:label "underwear"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00346
+:CC00346 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/WorkType> ;
+         rdfs:label "vest"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00348
+:CC00348 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/ClosurePlacement> ;
+         rdfs:label "center back closure"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00349
+:CC00349 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/ClosurePlacement> ;
+         rdfs:label "center front closure"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00350
+:CC00350 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/ClosurePlacement> ;
+         rdfs:label "double-breasted closure"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00351
+:CC00351 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/ClosurePlacement> ;
+         rdfs:label "neck closure"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00352
+:CC00352 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/ClosurePlacement> ;
+         rdfs:label "off-center back closure"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00353
+:CC00353 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/ClosurePlacement> ;
+         rdfs:label "off-center front closure"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00354
+:CC00354 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/ClosurePlacement> ;
+         rdfs:label "side closure"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00364
+:CC00364 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Gender> ;
+         rdfs:label "womenswear"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00365
+:CC00365 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Gender> ;
+         rdfs:label "menswear"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00366
+:CC00366 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Gender> ;
+         rdfs:label "unisex clothing"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00368
+:CC00368 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Function> ;
+         rdfs:label "day wear"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00369
+:CC00369 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Function> ;
+         rdfs:label "dinner dress"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00370
+:CC00370 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Function> ;
+         rdfs:label "evening dress"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00371
+:CC00371 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Function> ;
+         rdfs:label "graduation dress"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00372
+:CC00372 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Function> ;
+         rdfs:label "military uniform"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00373
+:CC00373 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Function> ;
+         rdfs:label "morning dress"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00374
+:CC00374 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Function> ;
+         rdfs:label "mourning dress"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00375
+:CC00375 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Function> ;
+         rdfs:label "party dress"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00376
+:CC00376 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Function> ;
+         rdfs:label "school uniform"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00377
+:CC00377 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Function> ;
+         rdfs:label "sports uniform"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00378
+:CC00378 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Function> ;
+         rdfs:label "uniform"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00379
+:CC00379 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Function> ;
+         rdfs:label "wedding dress"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00380
+:CC00380 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/Function> ;
+         rdfs:label "work clothes"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00382
+:CC00382 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/LifeStages> ;
+         rdfs:label "childhood"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00383
+:CC00383 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/LifeStages> ;
+         rdfs:label "infancy"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00384
+:CC00384 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/LifeStages> ;
+         rdfs:label "adolescence"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00385
+:CC00385 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/LifeStages> ;
+         rdfs:label "adulthood"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00386
+:CC00386 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/LifeStages> ;
+         rdfs:label "middle age"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00387
+:CC00387 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/LifeStages> ;
+         rdfs:label "old age"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00389
+:CC00389 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SocioEconomicClass> ;
+         rdfs:label "working class"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00390
+:CC00390 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SocioEconomicClass> ;
+         rdfs:label "middle class"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00391
+:CC00391 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SocioEconomicClass> ;
+         rdfs:label "upper class"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00393
+:CC00393 rdf:type owl:NamedIndividual ,
+                  <http://purl.org/vra/Technique> ;
+         rdfs:label "dart"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00394
+:CC00394 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/CostumeComponents> ;
+         rdfs:label "cuff"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00395
+:CC00395 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/CostumeComponents> ;
+         rdfs:label "epaulette"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00396
+:CC00396 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/CostumeComponents> ;
+         rdfs:label "facing"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00397
+:CC00397 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/CostumeComponents> ;
+         rdfs:label "pocket"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00398
+:CC00398 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/CostumeComponents> ;
+         rdfs:label "shoulder pad"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00399
+:CC00399 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/CostumeComponents> ;
+         rdfs:label "waistband"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00400
+:CC00400 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/CostumeComponents> ;
+         rdfs:label "wristband"^^xsd:string .
+
+
+###  https://w3id.org/costumeCore/ontology#CC00401
+:CC00401 rdf:type owl:NamedIndividual ,
+                  <https://w3id.org/costumeCore/ontology/SleeveType> ;
+         rdfs:label "two piece tailored sleeve"^^xsd:string .
 
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
